@@ -30,3 +30,14 @@ https://iptv.skuy.co.id:2083/local_trans_tv/mpegts?token=edH66lu6VfOhZ2
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWfc9n3GBmAOOBAWUvVN3mcTHDMTcUpuD_0OOzTWkMrszAHjO3umlNMif09H5FH0nkQ88&usqp=CAU" group-title="🇮🇩NASIONAL🇮🇩", Trans 7
 https://bromo.kdb.co.id/Trans7/tracks-v3a1/rewind-7200.m3u8
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStrfhQb9MF_xWd7n-RbqbGDCeIvXN5FC9QgL3m54ZpAfDxYCffbDoW_7r5T7YMbFynrqs&usqp=CAU" group-title="🇮🇩NASIONAL🇮🇩", ANTV
+http://210.210.155.37/qwr9ew/s/s07/index.m3u8
+
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9tlHPTCXuNdEGw46WKtcCURKc989akRWO4dDTVb5lSMe-XLlUZBsQr1Ilnhao-SVBng&usqp=CAU" group-title="🇮🇩NASIONAL🇮🇩", RTV
+https://nyanv-live-cdn.mncnow.id/live/eds/RTV/sa_dash_vmx/RTV.mpd
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-WjSf_vzXjY92BESDgFjICHc5mAXe_wL1SJF8qL2HTQwAi653Mn3yAu0TUQUiCZ1UH3o&usqp=CAU" group-title="🇮🇩NASIONAL🇮🇩", NET. HD
+http://tvkuonline.my.id:25461/riyad/riyad/18
