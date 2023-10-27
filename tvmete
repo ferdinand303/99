@@ -1,75 +1,32 @@
-#EXTM3U url-tvg="https://raw.githubusercontent.com/thefirefox12537/streams/master/epg/local/guide.xml"  refresh="3600"
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu_fRmd7qqRwKepYLooh6eNrYcJFQ3YLCa4o30t9rh9OVe7HbhNOADmqiHZQy-Ctpdl4Y&usqp=CAU" group-title="🇮🇩NASIONAL🇮🇩", MNCTV HD
+https://iptv.skuy.co.id:2083/local_mnc/mpegts?token=edH66lu6VfOhZ2
 
-#EXTINF:-1 tvg-id="" group-title="National TV" tvg-logo="https://static.mncnow.id/images//channel/e8b7a6a8/f009.png",RCTI
-http://nyanv-live-cdn.mncnow.id/live/eds/rcti-2/sa_hls/rcti-2.m3u8
-##http://nyanv-live-cdn.mncnow.id/live/eds/rcti-2/sa_hls/rcti-2-avc1_2499968=3.m3u8
-#EXTINF:-1 tvg-id="" group-title="National TV" tvg-logo="https://static.mncnow.id/images//channel/c121c900/d11c.png",MNCTV
-http://nyanv-live-cdn.mncnow.id/live/eds/MNCTV-HD2/sa_hls/MNCTV-HD2.m3u8
-##http://nyanv-live-cdn.mncnow.id/live/eds/MNCTV-HD2/sa_hls/MNCTV-HD2-avc1_2499968=6.m3u8
-#EXTINF:-1 tvg-id="" group-title="National TV" tvg-logo="https://static.mncnow.id/images//channel/9436da00/11fe.png",GTV
-http://nyanv-live-cdn.mncnow.id/live/eds/GTV-2/sa_hls/GTV-2.m3u8
-##http://nyanv-live-cdn.mncnow.id/live/eds/GTV-2/sa_hls/GTV-2-avc1_2499968=6.m3u8
-#EXTINF:-1 tvg-id="" group-title="National TV" tvg-logo="https://static.mncnow.id/images//channel/0a37b838/4414.png",iNews
-http://nyanv-live-cdn.mncnow.id/live/eds/inews-hdd/sa_hls/inews-hdd.m3u8
-##http://nyanv-live-cdn.mncnow.id/live/eds/inews-hdd/sa_hls/inews-hdd-avc1_2499968=7.m3u8
-#EXTINF:-1 tvg-id="" group-title="National TV" tvg-logo="https://dev.firstmedia.com:8443/files/packages/tvlokal/indosiar.jpg",Indosiar
-http://edge.linknetott.swiftserve.com/channelgroup3/cg331production/ch8/03.m3u8
-##http://edge.linknetott.swiftserve.com/channelgroup3/cg331production/ch8/index.m3u8
-#EXTINF:-1 tvg-id="" group-title="National TV" tvg-logo="https://dev.firstmedia.com:8443/files/packages/tvlokal/sctv.jpg",SCTV
-http://edge.linknetott.swiftserve.com/channelgroup3/cg357production/ch395/03.m3u8
-##http://edge.linknetott.swiftserve.com/channelgroup3/cg357production/ch395/index.m3u8
-#EXTINF:-1 tvg-id="OChannel.id" group-title="National TV" tvg-logo="https://i.postimg.cc/JhPD0mHR/20230518-215608.png",MOJI
-http://edge.linknetott.swiftserve.com/channelgroup4/cg409production/ch26/03.m3u8
-##http://edge.linknetott.swiftserve.com/channelgroup4/cg409production/ch26/index.m3u8
-##http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel(ch26)/index.m3u8
-#EXTINF:-1 tvg-id="" group-title="National TV" tvg-logo="https://dev.firstmedia.com:8443/files/images/d/new-logo/channels/8-LOCAL/Trans%20TV%20SD-FirstMedia-Chl-9.jpg",TRANS TV
-http://edge.linknetott.swiftserve.com/channelgroup3/cg326production/ch396/03.m3u8
-##http://edge.linknetott.swiftserve.com/channelgroup3/cg326production/ch396/index.m3u8
-##http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel(ch396)/index.m3u8
-#EXTINF:-1 tvg-id="" group-title="National TV" tvg-logo="https://dev.firstmedia.com:8443/files/images/d/new-logo/channels/8-LOCAL/Trans%20TV%20SD-FirstMedia-Chl-9.jpg",TRANS TV Alt
-https://video.detik.com/transtv/smil:transtv.smil/chunklist_w1655897278_b744100_sleng.m3u8
-#EXTINF:-1 tvg-id="" group-title="National TV" tvg-logo="https://dev.firstmedia.com:8443/files/images/d/new-logo/channels/8-LOCAL/Trans%207%20SD-FirstMedia-Chl-8.jpg",Trans 7
-http://edge.linknetott.swiftserve.com/channelgroup5/cg548production/ch397/03.m3u8
-##http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel(ch397)/index.m3u8
-##http://edge.linknetott.swiftserve.com/channelgroup5/cg548production/ch397/index.m3u8
-#EXTINF:-1 tvg-id="" group-title="National TV" tvg-logo="https://dev.firstmedia.com:8443/files/images/d/new-logo/channels/8-LOCAL/Trans%207%20SD-FirstMedia-Chl-8.jpg",Trans 7 Alt
-https://video.detik.com:443/trans7/smil:trans7.smil/chunklist_w428782846_b744100_sleng.m3u8
-#EXTINF:-1 group-title="National TV" tvg-logo="https://dev.firstmedia.com:8443/files/packages/tvlokal/antv.jpg",ANTV
-http://edge.linknetott.swiftserve.com/channelgroup3/cg314production/ch7/03.m3u8
-##http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel(ch390)/index.m3u8
-#EXTINF:-1 tvg-id="" group-title="National TV" tvg-logo="https://www.firstmedia.com/files/logos/channels/8-LOCAL/NET.%20HD-FirstMedia-Chl-411.jpg" group-title="NASIONAL",NET. HD
-http://210.210.155.37/qwr9ew/s/s08/01.m3u8
-##http://210.210.155.37/qwr9ew/s/s08/index.m3u8
-#EXTINF:-1 tvg-id="KompasTV.id" group-title="National TV" tvg-logo="https://dev.firstmedia.com:8443/files/packages/kompas-new.png",Kompas TV
-http://edge.linknetott.swiftserve.com/channelgroup3/cg358production/ch410/02.m3u8
-##https://cdn-telkomsel-01.akamaized.net/Content/DASH/Live/channel(dc9040ad-a4e1-4d08-883c-a65542b69602)/manifest.mpd
-##http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel(ch410)/index.m3u8
-#EXTINF:-1 tvg-id="TVRI.id" group-title="National TV" tvg-logo="https://dev.firstmedia.com:8443/files/images/d/new-logo/channels/8-LOCAL/TVRI%20SD-FirstMedia-Chl-16.jpg",TVRI
-http://edge.linknetott.swiftserve.com/channelgroup2/cg221production/ch399/03.m3u8
-##http://edge.linknetott.swiftserve.com/channelgroup2/cg221production/ch399/index.m3u8
-#EXTINF:-1 tvg-id="" group-title="National TV" tvg-logo="https://dev.firstmedia.com:8443/files/packages/metrorv-new.jpg",Metro TV
-http://edge.metrotvnews.com:1935/live-edge/smil:metro.smil/chunklist_w1789666658_b1492000_sleng.m3u8
-##http://edge.metrotvnews.com:1935/live-edge/smil:metro.smil/playlist.m3u8
-##http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel(ch394)/index.m3u8
-#EXTINF:-1 tvg-id="" group-title="National TV" tvg-logo="https://dev.firstmedia.com:8443/files/images/d/new-logo/channels/11-NEWS/TV%20One%20SD-FirstMedia-Chl-14.jpg",TV One
-http://op-group1-swiftservehd-1.dens.tv/h/h40/01.m3u8
-##http://op-group1-swiftservehd-1.dens.tv/h/h40/index.m3u8
-#EXTINF:-1 tvg-id="" group-title="National TV" tvg-logo="https://i.postimg.cc/2SzB7BPW/nusantaratv.png",Nusantara TV
-https://nusantaratv.siar.us/nusantaratv/live/chunks.m3u8
-#EXTINF:-1 tvg-id="rtv" group-title="National TV" tvg-logo="https://www.useetv.com/assets/images/channel/logo_rtv_big1.png?v=2.0.0.13",RTV
-https://cdn-telkomsel-01.akamaized.net/Content/HLS/Live/channel(41869351-4a9c-4e57-b54b-8cf5dfc919e1)/index.m3u8
-##http://rr1.dens.tv/h/h10/index1.m3u8
-#EXTINF:-1 tvg-id="" group-title="National TV" tvg-logo="https://www.useetv.com/assets/images/channel/logo_jaktv_big1.png?v=2.0.0.13", JAK TV
-http://edge.linknetott.swiftserve.com/channelgroup5/cg530production/ch392/index.m3u8
-#EXTINF:-1 tvg-id="" group-title="National TV" tvg-logo=" https://www.useetv.com/assets/images/channel/logo_jtv_big1.png?v=2.0.0.13",JTV
-http://edge.linknetott.swiftserve.com/channelgroup4/cg405production/ch17/index.m3u8
-#EXTINF:-1 tvg-id="" group-title="National TV" tvg-logo="https://www.useetv.com/assets/images/channel/logo_cnnindonesia_small1.png?v=2.0.0.15",CNN Indonesia
-https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_w430374872_b384000_sleng.m3u8
-##https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist.m3u8
-#EXTINF:-1 tvg-id="" group-title="National TV" tvg-logo="https://upload.wikimedia.org/wikipedia/id/3/35/CNBC_Indonesia.png",CNBC Indonesia
-https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/chunklist_w1352897452_b280000_sleng.m3u8
-#EXTINF:-1 group-title="National TV" tvg-logo="https://dev.firstmedia.com:8443/files/images/d/new-logo/channels/11-NEWS/Berita%20Satu%20SD-FirstMedia-Chl-1.jpg",BTV
-http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel(ch360)/index.m3u8
-#EXTINF:-1 group-title="National TV",BERITASATU WORLD
-http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel(ch19)/index.m3u8
-#EXTINF:-1 group-title="National TV" tvg-logo="https://dev.firstmedia.com:8443/files/images/d/new-logo/channels/11-NEWS/Jakarta%20Globe%20News%20Channel%20SD-FirstMedia-Chl-2.jpg",JAKARTA GLOBE
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvG29jO-gGwBQ8tYEMTRu3AymUoG9UWHYiY4R8kFLv6mu8xeUcW8gvzwDu1gUdyIMeAno&usqp=CAU" group-title="🇮🇩NASIONAL🇮🇩", RCTI HD
+https://iptv.skuy.co.id:2083/local_rcti/mpegts?token=edH66lu6VfOhZ2
+
+#EXTINF:-1 tvg-id="" tvg-name="GTV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKh6ffWdZT9-E9WOiNVZXlGrItgU4xzPm6ykk66vWZSnu8JkBrHDgSPifLxdFSZ1qyDOw&usqp=CAU" group-title="🇮🇩NASIONAL🇮🇩",GTV
+https://iptv.skuy.co.id:2083/local_gtv/mpegts?token=edH66lu6VfOhZ2
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR9tO3kTCXdt1SqQdNuhL5PyuZXeT2sCQvfS_GJG2nBgw2bKVUacW-HQkcZ79uAxFvJxE&usqp=CAU" group-title="🇮🇩NASIONAL🇮🇩", iNews 
+https://iptv.skuy.co.id:2083/local_inews/mpegts?token=edH66lu6VfOhZ2
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9FfQySGt3NPAI3k9rcAf3QPy0Bz0xKCGhi-RMQ5deTVZKf1ADEoawU-pAsYIxD1AGBlc&usqp=CAU" group-title="🇮🇩NASIONAL🇮🇩", Indosiar
+https://kusnadipepenk.github.io/campeign/indos.m3u8
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwcoDfAL6kBvgZ0GEkRIoKlu5aXbovggSKrC5s74PZt7vq_qwsuadkssK-8SGJL0LIgSo&usqp=CAU" group-title="🇮🇩NASIONAL🇮🇩", SCTV
+#EXTINF:0 tvg-logo="https://hometv.pw/logo/lokal/sctv.jpg" group-title="nasional" tvg-id="SCTV.id",SCTV Set Resolusi
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=73637476303030303030303030303030:6a22f33ee77fab96b318fe3dd7e1335d
+https://tinyurl.com/useebajak/dassdvr/133/sctv/manifest.mpd
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwcoDfAL6kBvgZ0GEkRIoKlu5aXbovggSKrC5s74PZt7vq_qwsuadkssK-8SGJL0LIgSo&usqp=CAU" group-title="🇮🇩NASIONAL🇮🇩", SCTV
+https://iptv.skuy.co.id:2083/local_sctv/mpegts?token=edH66lu6VfOhZ2
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB7PtO6R-c4JtSJPDSpuJ9b1LRA0z57bK8e-W5Vj2FtF67XMBsASzzGGoagn2dlwAU91E&usqp=CAU" group-title="🇮🇩NASIONAL🇮🇩", Moji
+https://iptv.skuy.co.id:2083/local_moji/mpegts?token=edH66lu6VfOhZ2
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/uhO4k9iqRVaHjZeJXJ2KpRw_w-k=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/733/trans-tv-stream-7ab79a.jpg" group-title="🇮🇩NASIONAL🇮🇩", Trans TV
+https://iptv.skuy.co.id:2083/local_trans_tv/mpegts?token=edH66lu6VfOhZ2
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWfc9n3GBmAOOBAWUvVN3mcTHDMTcUpuD_0OOzTWkMrszAHjO3umlNMif09H5FH0nkQ88&usqp=CAU" group-title="🇮🇩NASIONAL🇮🇩", Trans 7
+https://bromo.kdb.co.id/Trans7/tracks-v3a1/rewind-7200.m3u8
