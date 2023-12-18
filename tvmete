@@ -17,7 +17,8 @@ https://nyanv-live-cdn.mncnow.id/live/eds/RCTI-DD/sa_dash_vmx/RCTI-DD.mpd
 https://nyanv-live-cdn.mncnow.id/live/eds/RTV/sa_dash_vmx/RTV.mpd
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/DGvSdyt/sctv.png" group-title="🇮🇩 NASIONAL 🇮🇩"catchup="", SCTV HD
-http://op-group1-swiftservehd-1.dens.tv/h/h217/01.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h217/02.m3u8
 
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
@@ -31,10 +32,13 @@ https://nyanv-live-cdn.mncnow.id/live/eds/TransTV-2/sa_dash_vmx/TransTV-2.mpd
 #EXTINF:-1 group-title="🇮🇩 NASIONAL 🇮🇩" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_110.png",Trans 7
 https://nyanv-live-cdn.mncnow.id/live/eds/Trans7-2/sa_dash_vmx/Trans7-2.mpd
 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/nz94D2z/NET-TV.png" group-title="🇮🇩 NASIONAL 🇮🇩"catchup="", NET SD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h223/01.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/nz94D2z/NET-TV.png" group-title="🇮🇩 NASIONAL 🇮🇩"catchup="", NET. HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 8.0.0;) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.90 Mobile Safari/537.36
-https://cdn08jtedge.indihometv.com/dassdvr/133/net/manifest.mpd
+#EXTINF:-1 tvg-logo="https://i.ibb.co/dDkTSF1/INDOSIAR2015.png" group-title="🇮🇩 NASIONAL 🇮🇩"catchup="", INDOSIAR HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h207/02.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/BC8DWcR/Global-TV-Indonesia.png" group-title="🇮🇩 NASIONAL 🇮🇩"catchup="", GTV HD
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
@@ -276,1113 +280,415 @@ https://nyanv-live-cdn.mncnow.id/live/eds/Rockaction/sa_dash_vmx/Rockaction.mpd
 #KODIPROP:inputstream.adaptive.license_key=fe761e8fac143d40510e70825dad0b20:eed9fb0b4e254e9104ef98e8a7035387
 https://nyanv-live-cdn.mncnow.id/live/eds/KIX/sa_dash_vmx/KIX.mpd
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/bduRS9d.png" group-title="MOVIE",HBO HD
-http://iptvtree.net:8080/Vladisergeevic/7eef2c4388/197972
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#EXTHTTP:{"dt-custom-data": "eyJ1c2VySWQiOiJyZWFjdC1qdy1wbGF5ZXIiLCJzZXNzaW9uSWQiOiIxMjM0NTY3ODkiLCJtZXJjaGFudCI6ImdpaXRkX3RyYW5zdmlzaW9uIn0="}
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://cubmu.zhetv.eu.org/drm
+#EXTINF:-1 tvg-logo="https://dl.dropboxusercontent.com/s/45jb5o8gfh1ahmq/hbo.png" group-title="MOVIE",HBO
+https://cdnjkt2.transvision.co.id:1001/live/master/3/4028c6856b6088c3016b87d64b970b53/manifest.mpd
+#EXTINF:-1 tvg-id="HBO HD" tvg-name="HBO (ID)" tvg-logo="https://i.ibb.co/vP3hkjH/hhit.png" group-title="MOVIES",HBO (ID)
+http://iptvstream.xyz:8080/Miglior/f36FoHhJ0y7qYUQ2ZD/197972
 
-#EXTINF:-1 group-title="MOVIE" tvg-logo="https://i.imgur.com/aaldQx9.png",HBO Signature 
-http://208.115.225.174:14160
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#EXTHTTP:{"dt-custom-data": "eyJ1c2VySWQiOiJyZWFjdC1qdy1wbGF5ZXIiLCJzZXNzaW9uSWQiOiIxMjM0NTY3ODkiLCJtZXJjaGFudCI6ImdpaXRkX3RyYW5zdmlzaW9uIn0="}
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://cubmu.zhetv.eu.org/drm
+#EXTINF:-1 tvg-logo="https://i.ibb.co/vP3hkjH/hhit.png" group-title="MOVIE",HBO Hits
+https://cdnjkt2.transvision.co.id:1001/live/master/4/4028c6856c3db2cc016d054fbf67379f/manifest.mpd
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#EXTHTTP:{"dt-custom-data": "eyJ1c2VySWQiOiJyZWFjdC1qdy1wbGF5ZXIiLCJzZXNzaW9uSWQiOiIxMjM0NTY3ODkiLCJtZXJjaGFudCI6ImdpaXRkX3RyYW5zdmlzaW9uIn0="}
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://cubmu.zhetv.eu.org/drm
+#EXTINF:-1 tvg-logo="https://i.ibb.co/F8P2mxK/cccc.png" group-title="MOVIE",HBO Family
+https://cdnjkt2.transvision.co.id:1001/live/master/4/4028c6856c3db2cc016d055927fe37a4/manifest.mpd
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#EXTHTTP:{"dt-custom-data": "eyJ1c2VySWQiOiJyZWFjdC1qdy1wbGF5ZXIiLCJzZXNzaW9uSWQiOiIxMjM0NTY3ODkiLCJtZXJjaGFudCI6ImdpaXRkX3RyYW5zdmlzaW9uIn0="}
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://cubmu.zhetv.eu.org/drm
+#EXTINF:-1 tvg-logo="https://i.ibb.co/gM7NfQ4/SS.png" group-title="MOVIE",HBO Signature
+https://cdnjkt2.transvision.co.id:1001/live/master/3/4028c6856c3db2cc016d0552e0ca37a2/manifest.mpd
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#EXTHTTP:{"dt-custom-data": "eyJ1c2VySWQiOiJyZWFjdC1qdy1wbGF5ZXIiLCJzZXNzaW9uSWQiOiIxMjM0NTY3ODkiLCJtZXJjaGFudCI6ImdpaXRkX3RyYW5zdmlzaW9uIn0="}
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://cubmu.zhetv.eu.org/drm
+#EXTINF:-1 tvg-logo="https://i.ibb.co/tz61VMJ/CINE.png" group-title="MOVIE",Cinemax
+https://cdnjkt2.transvision.co.id:1001/live/master/1/4028c6856c3db2cc016cdbfc4a1934bf/manifest.mpd
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#EXTHTTP:{"dt-custom-data": "eyJ1c2VySWQiOiJyZWFjdC1qdy1wbGF5ZXIiLCJzZXNzaW9uSWQiOiIxMjM0NTY3ODkiLCJtZXJjaGFudCI6ImdpaXRkX3RyYW5zdmlzaW9uIn0="}
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://cubmu.zhetv.eu.org/drm
+#EXTINF:-1 tvg-logo="https://cdnjkt2.transvision.co.id:1001/image/web/channel/4028c68574537fcd0174be26e4325724/df2bd1819bb74e2ea38e40ebf9d60e14.png" group-title="MOVIE"Bioskop Indonesia
+https://cdnjkt2.transvision.co.id:1001/live/master/4/4028c6856fd0d66d0170341bf1000905/manifest.mpd
 
 
 ###################### SPORT ###########
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/Gp2wz1R/soccerchannel.png" group-title="SPORT", SOCCER CHANNEL
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+------------------------------------------------------liga eropa-------------------------------------------------------------
+#EXTINF:0 tvg-logo="https://i.ibb.co/VggrTny/liga-inggris.png" group-title="👉LIGA EROPA👈"​,PREMIER LEAGUE 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:106.0) Gecko/20100101 Firefox/106.0
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=4d38060bf41b3c29df0ec950ece6b5da:7ee9506b13480491d79b71c062ab5366
-https://nyanv-live-cdn.mncnow.id/live/eds/soccerchannel-HD/sa_dash_vmx/soccerchannel-HD.mpd
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/KbHPy2S/sportstar1.png" group-title="SPORT", SPORTSTAR 1
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_key=792c9b382615c47fdfb840dfd2387b8b:c86191afc372c5006ebab6e8bdf61e14
+https://drm-epl-vidio-com-epl-1.akamaized.net/out/v1/1b34ee57680f49229adaa19b74a9b60d/index.mpd
+#EXTINF:0 tvg-logo="https://i.ibb.co/VggrTny/liga-inggris.png" group-title="👉LIGA EROPA👈"​,PREMIER LEAGUE 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:106.0) Gecko/20100101 Firefox/106.0
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=531c6d50e3e9f9ba66446f624f492289:d769d9ae238bdd424f8bcdcdc9a3801f
-https://nyanv-live-cdn.mncnow.id/live/eds/MNCSports-HD/sa_dash_vmx/MNCSports-HD.mpd
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/2q9GMzY/sportstar2.png" group-title="SPORT", SPORTSTAR 2
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_key=a0605846d1f0dc153537b04d5fef6594:af747fe84c6c850c646364ad0b96c6cf
+https://drm-epl-vidio-com-epl-2.akamaized.net/out/v1/213998e62d2c4e5f9cf9e832d4502b83/index.mpd
+#EXTINF:0 tvg-logo="https://i.ibb.co/VggrTny/liga-inggris.png" group-title="👉LIGA EROPA👈"​,PREMIER LEAGUE 3
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=45fec91ce1f19b6b1f31d69dcfaaf6cd:843e228ab109e9aa6c4822ee4ad05d7d
-https://nyanv-live-cdn.mncnow.id/live/eds/MNCSports2-HD/sa_dash_vmx/MNCSports2-HD.mpd
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/rmdGc3S/sportstar3.png" group-title="SPORT", SPORTSTAR 3
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_key=c18b6aa739be4c0b774605fcfb5d6b68:e41c3a6f7532b2e3a828d9580124c89d
+https://webtvstream.bhtelecom.ba/hls6/premier_league.mpd
+#EXTINF:0 tvg-logo="https://i.ibb.co/VggrTny/liga-inggris.png" group-title="👉LIGA EROPA👈"​,PREMIER LEAGUE 4
+http://n2ip.tv:2095/s7w0PrWc/rXJhapu/115758
+#EXTINF:0 tvg-logo="https://i.ibb.co/VggrTny/liga-inggris.png" group-title="👉LIGA EROPA👈"​,PREMIER LEAGUE 5
+http://n2ip.tv:2095/s7w0PrWc/rXJhapu/115509
+#EXTINF:0 tvg-logo="https://i.ibb.co/VggrTny/liga-inggris.png" group-title="👉LIGA EROPA👈", PREMIER LEAGUE​ 6
+http://194.62.214.111/play/live.php?mac=00:1A:79:BF:B3:83&stream=554953&extension=ts&play_token=opryIKYKOJ
+#EXTINF:0 tvg-logo="https://i.ibb.co/VggrTny/liga-inggris.png" group-title="👉LIGA EROPA👈"​,PREMIER LEAGUE 7
+http://b4tv.live/play/4QwRtVvD1xJIP-l7j-o7UnEUF_PuDX8GqPgBymlu6t4/.m3u8
+#EXTINF:0 tvg-logo="https://i.ibb.co/VggrTny/liga-inggris.png" group-title="👉LIGA EROPA👈"​,PREMIER LEAGUE 9
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=fadd2720deff5925ab86df0819cd7775:f67ff08c7ebc779f6a6fcfc83835f65b
-https://nyanv-live-cdn.mncnow.id/live/eds/MNCSports3-HD/sa_dash_vmx/MNCSports3-HD.mpd
+#KODIPROP:inputstream.adaptive.license_key=cbb2857966a3a1c27c3305f68e2e92a4:881eca5eda60de64e4ea1514583869f2
+https://drm-epl-vidio-com-epl-4.akamaized.net/out/v1/90396b8cf44f4d20b28f1be94b41b241/index.mpd
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/JHYtZKw/sportstar4.png" group-title="SPORT", SPORTSTAR 4
+#EXTINF:0 tvg-logo="https://i.ibb.co/FzzV8L3/liga-spain.png" group-title="👉LIGA EROPA👈",LA LIGA
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=82f8e2a17dac44c0a18f660479349c59:1b144f73e6fefe91cd05f850e2b589d0
+http://dce-ak-livewwdazn.akamaized.net/dashdrm/dazn-linear-043/stream.mpd
+
+#EXTINF:0 tvg-logo="https://i.ibb.co/FzzV8L3/liga-spain.png" group-title="👉LIGA EROPA👈",LA LIGA 1
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=90e32a4712f5480bab7abc8a4fef25da:2eeb49a8688f2365e1131cf4ae4d6f0a
+https://wp-obc4-live-nl-prod.prod.cdn.dmdsdp.com/dash/go-dash-hdready-avc/NL_000014_019661/manifest.mpd
+#EXTINF:0 tvg-logo="https://i.ibb.co/FzzV8L3/liga-spain.png" group-title="👉LIGA EROPA👈"​,LA LIGA 2
+http://ghost1.tv:80/162CBDA1CFAF/64ff5ef7debbf/44473
+#EXTINF:0 tvg-logo="https://i.ibb.co/FzzV8L3/liga-spain.png" group-title="👉LIGA EROPA👈",LA LIGA 3
+http://37.49.230.42:8080/live/iptvepic4/DzbGTtATy4DzmK8c/1937.ts
+#EXTINF:-1 tvg-id="" tvg-name="IT: Sky Sport Calcio" tvg-logo="https://i.ibb.co/jy7SK52/calcio.png" group-title="👉LIGA EROPA👈",LIGA ITALY
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=82f8e2a17dac44c0a18f660479349c59:1b144f73e6fefe91cd05f850e2b589d0
+http://dce-ak-livewwdazn.akamaized.net/dashdrm/dazn-linear-024/stream.mpd
+#EXTINF:-1 tvg-id="" tvg-name="IT: Sky Sport Calcio" tvg-logo="https://i.ibb.co/jy7SK52/calcio.png" group-title="👉LIGA EROPA👈",LIGA ITALY 1
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=82f8e2a17dac44c0a18f660479349c59:1b144f73e6fefe91cd05f850e2b589d0
+https://dce-ak-livewwdazn.akamaized.net/dashdrm/dazn-linear-035/stream.mpd
+#EXTINF:-1 tvg-id="" tvg-name="IT:  SKY CALCIO 1 HD" tvg-logo="https://i.ibb.co/jy7SK52/calcio.png" group-title="👉LIGA EROPA👈",LIGA ITALY 2
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=82f8e2a17dac44c0a18f660479349c59:1b144f73e6fefe91cd05f850e2b589d0
+https://dce-ak-livewwdazn.akamaized.net/dashdrm/dazn-linear-024/stream.mpd
+#EXTINF:-1 tvg-id="" tvg-name="IT:  SKY CALCIO 1 HD" tvg-logo="https://i.ibb.co/jy7SK52/calcio.png" group-title="👉LIGA EROPA👈",LIGA ITALY 3
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=4126c14ea8e841bb91745cd9323a1244:f841392e924641e73079b388a096903e
+https://s2129134.cdn.mytvnet.vn/pkg20/wrap/xlive.mpd?c=vstv265&offset=1&nodelay=1
+#EXTINF:-1 tvg-logo="https://i.ibb.co/PtgBGrT/LIGUE.jpg" group-title="👉LIGA EROPA👈" ,LIGA PRANCIS
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=82f8e2a17dac44c0a18f660479349c59:1b144f73e6fefe91cd05f850e2b589d0
+https://dce-ak-livewwdazn.akamaized.net/dashdrm/dazn-linear-048/stream.mpd
+#EXTINF:-1 tvg-logo="https://i.ibb.co/PtgBGrT/LIGUE.jpg" group-title="👉LIGA EROPA👈" ,LIGA PRANCIS 
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=82f8e2a17dac44c0a18f660479349c59:1b144f73e6fefe91cd05f850e2b589d0
+https://dce-ak-livewwdazn.akamaized.net/dashdrm/dazn-linear-032/stream.mpd
+#EXTINF:-1 tvg-logo="https://i.ibb.co/PtgBGrT/LIGUE.jpg" group-title="👉LIGA EROPA👈" ,LIGA PRANCIS 
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=82f8e2a17dac44c0a18f660479349c59:1b144f73e6fefe91cd05f850e2b589d0
+https://dce-ak-livewwdazn.akamaized.net/dashdrm/dazn-linear-052/stream.mpd
+#EXTINF:-1 tvg-logo="https://i.ibb.co/dQj8Q56/BUNDES-LIGA.png" group-title="👉LIGA EROPA👈" , BUNDES LIGA
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://sport.livedoomovies.com:4432/02_PremierHD4_720p/chunklist.m3u8|referer=https://oneplayer.online/
+#EXTINF:-1 tvg-logo="https://i.ibb.co/dQj8Q56/BUNDES-LIGA.png" group-title="👉LIGA EROPA👈" , BUNDES LIGA
+http://8525ef27.edemist.com/iptv/CRRK2RR5248NTX/6097/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/dQj8Q56/BUNDES-LIGA.png" group-title="👉LIGA EROPA👈", BUNDES LIGA
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=82f8e2a17dac44c0a18f660479349c59:1b144f73e6fefe91cd05f850e2b589d0
+https://dce-ak-livewwdazn.akamaized.net/dashdrm/dazn-linear-055/stream.mpd
+
+#EXTINF:0 tvg-logo="https://i.ibb.co/HNz0Hrv/Logo-Livoli-Divisi-Utama.png" group-title="🚩LIVE EVENT🚩",PRO LIGA
+http://iptvmedia.live:8080/argoni150Con/gPT9F27zGRXv3MfDqH5sY4/298550
+#EXTINF:0 tvg-logo="https://i.ibb.co/h9VK7Df/vnl-logo.png" group-title="🚩LIVE EVENT🚩",VOLLY
+http://95.214.235.96:8880/29us02063n01/adfser2323/51810
+
+
+#EXTINF:0 tvg-logo="https://i.ibb.co/P1KZ7vx/bri.jpg" group-title="🚩LIGA BRI🚩",LIGA BRI  1
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=b81b1942c65f35547ced1bff074206a5:a07dc4d86f51db7195f4b7e2abe9d9e8
 https://nyanv-live-cdn.mncnow.id/live/eds/Sportstar4/sa_dash_vmx/Sportstar4.mpd
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/5rhxLK9/spotv1.png" group-title="SPORT", SPOTV 1
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=57d2ac9210cfbca3596cc679a01c8b29:d5e35c0f39c76adf24853d7ea18c71e7
-https://nyanv-live-cdn.mncnow.id/live/eds/SPOTV-HD/sa_dash_vmx/SPOTV-HD.mpd
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/nbhpMm0/spotv2.png" group-title="SPORT", SPOTV 2
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=57d2ac9210cfbca3596cc679a01c8b29:d5e35c0f39c76adf24853d7ea18c71e7
-https://nyanv-live-cdn.mncnow.id/live/eds/SPOTV2-HD/sa_dash_vmx/SPOTV2-HD.mpd
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/SBmp9Dt/fight.png" group-title="SPORT", FIGHT SPORT
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=d2159ffe3be22ed4916a6abe4d58d265:3e4efcec08d5d5c18a403b7048a43638
-https://nyanv-live-cdn.mncnow.id/live/eds/FightSports/sa_dash_vmx/FightSports.mpd
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/d0PZNhX/useesports-big-copy.png" group-title="SPORT", USEE SPORT 1
-https://thefirefox12537.github.io/streams/yusisport.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/0QFv68b/useesport2-big-copy.png" group-title="SPORT", USEE SPORT 2
-https://thefirefox12537.github.io/streams/yusisport_loro.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/BvWw1Ms7/YACINE.png" group-title="YACINE",Bein Sports Premium 1 Low
-http://starshare.live:8080/live/Pirates/Pirates/206985.ts
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/BvWw1Ms7/YACINE.png" group-title="YACINE",BeIN Sports Premium 2 HD
-http://starshare.live:8080/live/Pirates/Pirates/206986.ts
-
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/BvWw1Ms7/YACINE.png" group-title="YACINE",BeIN Sports Premium 3 HD
-http://starshare.live:8080/live/Pirates/Pirates/206987.ts
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/BvWw1Ms7/YACINE.png" group-title="YACINE",Bein Sport  4
-http://starshare.live:8080/live/Pirates/Pirates/206988.ts
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/BvWw1Ms7/YACINE.png" group-title="YACINE" ,Bein Sport 5
-http://starshare.live:8080/live/Pirates/Pirates/206989.ts
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/BvWw1Ms7/YACINE.png" group-title="YACINE",Bein Sport 6
-http://starshare.live:8080/live/Pirates/Pirates/206990.ts
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/BvWw1Ms7/YACINE.png" group-title="YACINE",Bein Sport 7
-http://starshare.live:8080/live/Pirates/Pirates/206991.ts
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/BvWw1Ms7/YACINE.png" group-title="YACINE",Bein Sport AFC 1 HD
-http://starshare.live:8080/live/Pirates/Pirates/206992.ts
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/BvWw1Ms7/YACINE.png" group-title="YACINE",Bein Sport AFC 1 SD
-http://starshare.live:8080/live/Pirates/Pirates/206993.ts
-
-#EXTINF:-1 group-title="World Sports",ELEVEN SPORTS 1 4K
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=905665&extension=ts
-#EXTINF:-1 group-title="World Sports",Astro SuperSport
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=918986&extension=ts
-#EXTINF:-1 group-title="World Sports",Astro SuperSport 2
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=918985&extension=ts
-#EXTINF:-1 group-title="World Sports",Astro SuperSport 3
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=918984&extension=ts
-#EXTINF:-1 group-title="World Sports",Astro SuperSport 4
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=918983&extension=ts
-#EXTINF:-1 group-title="World Sports",Astro SuperSport 5
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=918982&extension=ts
-#EXTINF:-1 group-title="World Sports",Now Sports Premier League 1
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=1110622&extension=ts
-#EXTINF:-1 group-title="World Sports",Now Sports 3
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=1110617&extension=ts
-#EXTINF:-1 group-title="World Sports",Now Sports 5
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=1110619&extension=ts
-#EXTINF:-1 group-title="World Sports",Now Sports 6
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=1110620&extension=ts
-#EXTINF:-1 group-title="World Sports",Hub Sports 1
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=1110667&extension=ts
-#EXTINF:-1 group-title="World Sports",Hub Sports 2
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=1110666&extension=ts
-#EXTINF:-1 group-title="World Sports",Hub Sports 4
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=1110665&extension=ts
-#EXTINF:-1 group-title="World Sports",ESPN
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=45579&extension=ts
-#EXTINF:-1 group-title="World Sports",ESPN 2
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=45580&extension=ts
-#EXTINF:-1 group-title="World Sports",FS 1
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=45571&extension=ts
-#EXTINF:-1 group-title="World Sports",FS 2
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=45570&extension=ts
-#EXTINF:-1 group-title="World Sports",FOX SOCCER PLUS
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=45572&extension=ts
-#EXTINF:-1 group-title="World Sports",BT Sport 1
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=30567&extension=ts
-#EXTINF:-1 group-title="World Sports",BT Sport 2
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=30566&extension=ts
-#EXTINF:-1 group-title="World Sports",BT Sport 3
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=30565&extension=ts
-#EXTINF:-1 group-title="World Sports",BT Sport 4
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=30564&extension=ts
-#EXTINF:-1 group-title="World Sports",Sky Sports Premier League
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=30493&extension=ts
-#EXTINF:-1 group-title="World Sports",Sky Sports Football
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=30498&extension=ts
-#EXTINF:-1 group-title="World Sports",Sky Sports Main Event
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=30496&extension=ts
-#EXTINF:-1 group-title="World Sports",Sky Sports Mix
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=30495&extension=ts
-#EXTINF:-1 group-title="World Sports",Sky Sports Action
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=929003&extension=ts
-#EXTINF:-1 group-title="World Sports",Sky Sports Arena
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=30500&extension=ts
-#EXTINF:-1 group-title="World Sports",Sky Sports F1
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=30499&extension=ts
-#EXTINF:-1 group-title="World Sports",TSN 1
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=177344&extension=ts
-#EXTINF:-1 group-title="World Sports",TSN 2
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=177345&extension=ts
-#EXTINF:-1 group-title="World Sports",TSN 3
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=177346&extension=ts
-#EXTINF:-1 group-title="World Sports",TSN 4
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=904213&extension=ts
-#EXTINF:-1 group-title="World Sports",TSN 5
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=904212&extension=ts
-#EXTINF:-1 group-title="World Sports",EUROSPORT 1
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=30541&extension=ts
-#EXTINF:-1 group-title="World Sports",EUROSPORT 2
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=30540&extension=ts
-#EXTINF:-1 group-title="World Sports",LALIGA TV
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=163611&extension=ts
-#EXTINF:-1 group-title="World Sports",VIAPLAY SPORTS 1
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=163607&extension=ts
-#EXTINF:-1 group-title="World Sports",VIAPLAY SPORTS 2
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=45251&extension=ts
-#EXTINF:-1 group-title="World Sports",EDGE SPORT
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=1014266&extension=ts
-#EXTINF:-1 group-title="World Sports",SONY SPORTS 1
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=1114576&extension=ts
-#EXTINF:-1 group-title="World Sports",SONY SPORTS 2
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=1114577&extension=ts
-#EXTINF:-1 group-title="World Sports",SONY SPORTS 3
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=156024&extension=ts
-#EXTINF:-1 group-title="World Sports",STAR SPORTS 1
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=155968&extension=ts
-#EXTINF:-1 group-title="World Sports",STAR SPORTS 2
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=155966&extension=ts
-#EXTINF:-1 group-title="World Sports",STAR SPORTS 3
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=155976&extension=ts
-#EXTINF:-1 group-title="World Sports",STAR SPORTS SELECT 1
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=155972&extension=ts
-#EXTINF:-1 group-title="World Sports",STAR SPORTS SELECT 2
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=155973&extension=ts
-#EXTINF:-1 group-title="World Sports",Hub Premier 1
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=1032529&extension=ts
-#EXTINF:-1 group-title="World Sports",Hub Premier 2
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=1032528&extension=ts
-#EXTINF:-1 group-title="World Sports",Hub Premier 3
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=1032527&extension=ts
-#EXTINF:-1 group-title="World Sports",Hub Premier 4
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=1032526&extension=ts
-#EXTINF:-1 group-title="World Sports",Hub Premier 5
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=1032525&extension=ts
-#EXTINF:-1 group-title="World Sports",Hub Premier 6
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=1032524&extension=ts
-#EXTINF:-1 group-title="World Sports",Hub Premier 7
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=1032523&extension=ts
-#EXTINF:-1 group-title="World Sports",Hub Premier 8
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=1032522&extension=ts
-#EXTINF:-1 group-title="World Sports",Hub Premier 9
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=1032521&extension=ts
-#EXTINF:-1 group-title="World Sports",Hub Premier 10
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=1032520&extension=ts
-#EXTINF:-1 group-title="World Sports",Hub Premier 11
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=1032519&extension=ts
-#EXTINF:-1 group-title="World Sports",ELEVEN SPORTS 1
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=880457&extension=ts
-#EXTINF:-1 group-title="World Sports",ELEVEN SPORTS 2
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=880456&extension=ts
-#EXTINF:-1 group-title="World Sports",ELEVEN SPORTS 3
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=880455&extension=ts
-#EXTINF:-1 group-title="World Sports",ELEVEN SPORTS 4
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=880454&extension=ts
-#EXTINF:-1 group-title="World Sports",CANAL+ SPORT 1
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=880461&extension=ts
-#EXTINF:-1 group-title="World Sports",CANAL+ SPORT 2
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=880460&extension=ts
-#EXTINF:-1 group-title="World Sports",CANAL+ SPORT 3
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=880459&extension=ts
-#EXTINF:-1 group-title="World Sports",CANAL+ SPORT 4
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=880458&extension=ts
-
-#EXTINF:-1 group-title="World Sports",beIN SPORTS 1
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&extension=ts&stream=941569
-#EXTINF:-1 group-title="World Sports",beIN SPORTS 2
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&extension=ts&stream=941568
-#EXTINF:-1 group-title="World Sports",beIN SPORTS 3
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&extension=ts&stream=941567
-#EXTINF:-1 group-title="World Sports",Hub Sports 1
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&extension=ts&stream=941573
-#EXTINF:-1 group-title="World Sports",Hub Sports 2
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&extension=ts&stream=941572
-#EXTINF:-1 group-title="World Sports",Hub Sports 4
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&extension=ts&stream=941571
-
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", BEIN HABER TR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=27725_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", BEIN SPORT 4K TR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=32950_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", BEIN SPORT 1 TR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=41811_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", BEIN SPORT 2 TR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=41810_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", BEIN SPORT 3 TR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=41809_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", BEIN SPORT 4 TR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=1989_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", BEIN SPORT 5 TR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=109251_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", BEIN SPORT MAX 1 TR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=13599_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", BEIN SPORT MAX 2 TR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=15181_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", TIVIBU SPORT 1 TR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=13469_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", TIVIBU SPORT 2 TR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=13470_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", TIVIBU SPORT 3 TR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=13458_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SMART SPORT TR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=13471_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", A SPORT TR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=14824_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", TRT SPORT 1 TR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=14828_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", TRT SPORT 2 TR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=46642_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", TRT SPORT 3 TR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=68255_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", TAY TV TR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=14836_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", S SPORT 1 TR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=29745_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", S SPORT 2 TR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=46640_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", EUROSPORT 1 TR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=7774_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", EUROSPORT 2 TR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=7877_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", GALATASARAY TV TR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=7875_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", FENERBAHCE TV TR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=7874_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", TJK TV TR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=8708_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", RUMBLE TV TR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=135160_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", FIFA ESPORT TV TR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=125225_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", WWE TV TR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=122560_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", ALEX TOPROLL TV TR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=124333_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", ESPN 1 NL
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=2735_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", ESPN 2 NL
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=26_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", ESPN 3 NL
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=27_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", ESPN 4 NL
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=38_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", ZIGGO SPORT SELECT NL
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=2343_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", ZIGGO SPORT VOETBAL NL
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=23_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", ZIGGO SPORT GOLF NL
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=24_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", ZIGGO SPORT RACING NL
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=934_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", EDGE SPORT NL
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=65012_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", EXTREME SPORTS NL
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=2351_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", HOURSE COUNTRY NL
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=65011_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", WRESTLING TV NL
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=124327_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", WWE TV NL
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=122559_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", FIFA ESPORT TV NL
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=125226_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", UFC POWER SLAP NL
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=135161_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", PLAY SPORT 1 BE
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=65657_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", PLAY SPORT 2 BE
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=66524_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", PLAY SPORT 3 BE
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=48789_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", ELEVEN SPORT 1 BE
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=40242_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", ELEVEN SPORT 2 BE
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=40243_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", ELEVEN SPORT 3 BE
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=65656_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", ELEVEN LEAGUE 1 BE
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=66512_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", ELEVEN LEAGUE 2 BE
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=66513_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", MOTORVISION DE
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=16103_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SKY SPORT F1 DE
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=86526_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SKY SPORT TOP EVENT DE
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=16103_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SKY SPORT PREMIER LEAGUE DE
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=106443_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SKY SPORT MIX DE
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=106445_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SKY SPORT GOLF DE
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=106444_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SKY SPORT F1 DE
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=86526_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SKY SPORT AUSTRIA 1
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=15926_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SKY SPORT AUSTRIA 2
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=77871_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SKY SPORT AUSTRIA 3
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=77872_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", ORF SPORT AU
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=28127_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SPORT+1 AU
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=28123_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", DAZN 1 DE
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=37069_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", DAZN 2 DE
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=37070_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", DAZN 1 DE
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=37069_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SKY SPORT BUNDESLIGA 1
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=15944_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SKY SPORT BUNDESLIGA 2
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=16083_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SKY SPORT BUNDESLIGA 3
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=16085_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", BEIN SPORT 1 FR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=158_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", BEIN SPORT 2 FR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=159_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", BEIN SPORT 3 FR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=1219_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", BEIN SPORT MAX 4 FR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=19331_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", BEIN SPORT MAX 5 FR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=19330_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", BEIN SPORT MAX 6 FR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=19329_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", BEIN SPORT MAX 7 FR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=19328_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", BEIN SPORT MAX 8 FR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=19327_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", BEIN SPORT MAX 9 FR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=63135_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", BEIN SPORT MAX 10 FR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=63136_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", BLUE SPORT D1 SW
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=24906_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", BLUE SPORT D1 SW
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=117794_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", BLUE SPORT D2 SW
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=117794_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SPORT DIGITAL 1 AL
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=247_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SPORT DIGITAL 2 AL
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=248_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SPORT DIGITAL 3 AL
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=249_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SPORT DIGITAL 4 AL
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=250_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SPORT DIGITAL 5 AL
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=6157_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SPORT DIGITAL 6 AL
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=65014_&extension=ts
-
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", TRING SPORT NEWS AL
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=6155_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", TRING SPORT 1 AL
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=2332_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", TRING SPORT 2 AL
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=2333_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", K SPORT 1 AL
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=9833_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", K SPORT 2 AL
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=8967_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", K SPORT 3 AL
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=9834_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", ART SPORT 1 AL
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=65110_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", ART SPORT 2 AL
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=65111_&extension=ts    
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", ART SPORT 3 AL
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=65112_&extension=ts
-
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", ARENA SPORTS 1 RS
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=534_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA, ARENA SPORTS 2 RS
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=535_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", ARENA SPORTS 3 RS
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=536_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", ARENA SPORTS 4 RS
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=537_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", ARENA SPORTS 5 RS
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=401_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", ARENA SPORTS 1 HR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=404_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", ARENA SPORTS 2 HR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=218_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", ARENA SPORTS 3 HR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=405_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", ARENA SPORTS 4 HR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=406_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", ARENA SPORTS 5 HR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=787_&extension=ts
-
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", TNT SPORT 1 UK HD
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=213_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", TNT SPORTS 1 UK
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=11484_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", TNT SPORTS 2 UK
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=11485_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", TNT SPORTS 3 UK
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=11486_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", TNT SPORTS 4 UK
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=316_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", TNT SPORTS 5 EVENT
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=109870_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", TNT SPORTS 6 EVENT
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=109871_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", TNT SPORTS 7 EVENT
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=109872_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", MUTV UK
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=11435_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", LFC TV UK
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=1785_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", RANGER FC TV UK
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=151735_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", RACING TV UK
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=11403_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", EUROSPORT 1 UK
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=985_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", POLSAT SPORTS EXTRA PL
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=22069_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", POLSAT SPORTS FIGHT PL 
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=22087_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", POLSAT SPORTS PL 
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=22086_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", POLSAT SPORTS PREMIUM 1 PL 
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=63651_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", POLSAT SPORTS PREMIUM 2 PL 
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=63652_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", POLSAT SPORTS PREMIUM 3 PL 
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=63653_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", CANAL SPORTS+ PL
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=21909_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", CANAL SPORTS 2 PL
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=21922_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", CANAL SPORTS 3 PL
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=63648_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", CANAL SPORTS 4 PL
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=63649_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", CANAL SPORTS 5 PL
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=15616_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SPORTKLUB PL
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=63658_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", ELEVEN SPORTS 1 PL
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=21904_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", ELEVEN SPORTS 2 PL
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=21903_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", ELEVEN SPORTS 3 PL
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=41766_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", ELEVEN SPORTS 4 PL
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=41767_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", GOLF CHANEL PL
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=63656_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", FIGHT BOX PL
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=63656_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", FIGHTKLUB PL
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=63655_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", TVP SPORT PL
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=21994_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", V SPORT 1 SW
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=13761_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", V SPORT PREMIUM SW
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=61928_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", V SPORT GOLF SW
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=61972_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", V SPORT GOLF 2 SW2
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=71470_&extension=ts
-
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", TV3 SPORT 1 SW
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=13764_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", TV3 SPORT 2 SW
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=13765_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", TV3 SPORT PLUS SW
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=13763_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", C MORE SPORT GOLF SW
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=65453_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", C MORE SPORT 1 SW
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=13749_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", C MORE SPORT 2 SW
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=64962_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", C MORE SPORT 3 SW
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=64963_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SPORTKANALEN SW
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=65467_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", TV2 SPORT 1 SW
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=111201_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", TV2 SPORT 2 SW
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=111202_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", TV2 SPORT PREMIUM SW
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=111203_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SKY SPORT ACTION UK
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=11400_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SKY SPORT ARENA UK
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=28035_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SKY SPORT CRICKET UK
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=210_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SKY SPORT F1 UK
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=214_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SKY SPORT FOOTBALL UK
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=28034_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SKY SPORT GOLF UK
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=11401_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SKY SPORT MAIN EVENT UK
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=7641_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SKY SPORT MIX UK
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=22456_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", BEIN SPORT US
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=18240_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", ESPN 2 US
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=18215_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", FIGHT NETWORK US
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=29513_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", FOX SPORT SOCCER US
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=19942_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", FOX SPORT 1 US
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=18206_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", FOX SPORT 2 US
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=18205_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", NFL NETWORK US
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=102466_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", MBL NETWORK US
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=24828_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", NBA TV US
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=18174_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", NBCSN US
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=19941_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SPORTNET ONE US
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=18154_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", TSN 1 US
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=18139_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", TSN 2 US
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=18138_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", TSN 3 US
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=18137_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", TSN 4 US
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=18136_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", TSN 5 US
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=18135_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", LALIGA TV ES
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=45121_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", MOVISTAR LALIGA ES
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=16510_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", MOVISTAR LALIGA 1 ES
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=61974_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", MOVISTAR LALIGA 2 ES
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=61975_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", MOVISTAR LALIGA 3 ES
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=61976_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", MOVISTAR LALIGA DE CAMPIONES ES
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=16512_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", MOVISTAR DEPORTES 1 ES
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=560_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", MOVISTAR F1 ES
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=16507_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", MOVISTAR DAZN F1 ES
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=61977_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", MOVISTAR GOLF ES
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=16509_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", REAL MADRID TV ES
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=845_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", EUROSPORT 1 ES
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=13173_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", EUROSPORT 2 ES
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=16539_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", GOL PLAY ES
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=16514_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", TELEDEPORTE ES
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=13155_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", EUROSPORT 1 PT
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=2739_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", EUROSPORT 2 PT
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=9407_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", ELEVEN SPORT 1 PT
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=63300_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", ELEVEN SPORT 2 PT
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=63301_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", ELEVEN SPORT 3 PT
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=63302_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", ELEVEN SPORT 4 PT
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=63303_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", ELEVEN SPORT 5 PT
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=63304_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", ELEVEN SPORT 6 PT
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=63305_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", KOMBAT SPORT PT
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=63307_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", BENFICA TV PT
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=1171_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", REAL MADRID TV PT
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=63306_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SPORTING TV PT
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=2732_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", NBA TV PT
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=63308_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", MOTORVISION TV PT
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=63309_&extension=ts
-
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SPORT TV 1 PT
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=864_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SPORT TV 2 PT
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=13184_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SPORT TV 3 PT
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=862_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SPORT TV 4 PT
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=1021_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SPORT TV 5 PT
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=1022_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SKY SPORT UNO IT
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=4395_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SKY SPORT 24 IT
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=296_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SKY SPORT F1 IT
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=31015_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SKY SPORT FOOTBALL IT
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=64224_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SKY SPORT NBA IT
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=64227_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SKY SPORT ARENA IT
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=64226_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SKY SPORT MOTOGP IT
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=46094_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SKY CALCIO 1 IT
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=46477_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SKY CALCIO 2 IT
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=46478_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", RAI SPORT IT
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=4344_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", EUROSPORT 1 IT
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=4387_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", EUROSPORT 2 IT
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=60822_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SUPER TENNIS IT
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=4299_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SPORT ITALIA IT
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=4301_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", DIGI SPORTS 1
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=802_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", DIGI SPORTS 2
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=803_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", DIGI SPORTS 3
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=804_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", DIGI SPORTS 4
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=9180_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", TELEKOM SPORTS 1
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=38422_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", ORANGE SPORTS 1
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=162299_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", ORANGE SPORTS 2
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=65476_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", ORANGE SPORTS 3
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=38424_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", ORANGE SPORTS 4
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=38425_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", EUROSPORT 1 RO
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=9178_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", EUROSPORT 2 RO
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=9177_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", FISHING HUNTING RO
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=61556_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", RING TV BG
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=9247_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", KHL TV BG
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=61857_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", NOVA SPORT BG
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=9250_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", MAX SPORT 1 BG
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=61815_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", MAX SPORT 2 BG
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=61816_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", MAX SPORT 3 BG
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=61817_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", MAX SPORT 4 BG
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=61818_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", DIEMA SPORT 1 BG
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=14249_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", DIEMA SPORT 2 BG
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=14250_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", FIGHTBOX BG
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=61800_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", TRACE SPORT STARS BG
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=61843_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", AUTO MOTOR SPORT BG
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=61759_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SPORTAL BG
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=61840_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", AUTOMOTO TV BG
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=61760_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", BEIN SPORT 1 PREMIUM AR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=117446_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", BEIN SPORT 2 PREMIUM AR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=117447_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", BEIN SPORT 3 PREMIUM AR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=117448_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", BEIN SPORT 1 AR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=13241_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", BEIN SPORT 2 AR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=13242_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", BEIN SPORT 3 AR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=13243_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", BEIN SPORT 4 AR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=13244_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", BEIN SPORT 5 AR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=1966_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", BEIN SPORT 6 AR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=13246_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", BEIN SPORT 7 AR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=13247_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", BEIN SPORT 8 AR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=13248_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", BEIN SPORT 9 AR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=13249_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", BEIN SPORT 10 AR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=13250_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", BEIN SPORT MAX 1 AR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=113579_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", BEIN SPORT MAX 2 AR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=13250_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", ABU DHABI SPORT 1
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=63873_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", ABU DHABI SPORT 1 ASIA
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=63872_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", AL KASS SPORT 1 AR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=6992_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", AL KASS SPORT 2 AR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=6993_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", AL KASS SPORT 4 AR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=63874_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", KSA SPORT 1 AR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=63870_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", KSA SPORT 1 AR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=63871_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", DUBAI RACING 1 AR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=61170_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", DUBAI RACING 2 AR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=61174_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", DUBAI RACING 3 AR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=6998_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", NILE SPORT AR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=7456_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", PTV SPORT IN
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=14903_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", STAR SPORT 1 IN
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=7892_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", STAR SPORT 2 IN
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=7893_&extension=
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SONY TEN SPORT 1 IN
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=14795_&extension=
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SONY TEN SPORT 2 IN
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=14794_&extension=
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SONY TEN SPORT 3 IN
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=14793_&extension=
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", WILLOW CRICKET IN
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=14924_&extension=
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", PTV SPORT PK
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=65510_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", TEN SPORT PK
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=65516_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", DIGI SPORT 1 HU
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=23626_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", DIGI SPORT 2 HU
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=23632_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SPORT 1 HU
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=23635_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SPORT 2 HU
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=23584_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", M4 SPORT HU
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=49326_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", EUROSPORT 1 HU
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=147286_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", EUROSPORT 2 HU
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=71492_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", NOVA SPORT 1 CZ
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=23580_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", NOVA SPORT 2 CZ
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=23581_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SPORT TV 1 BR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=64200_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SPORT TV 2 BR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=64201_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SPORT TV 3 BR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=64202_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", FOX SPORT 1 BR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=64184_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", FOX SPORT 2 BR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=64185_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", BAND SPORT BR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=64180_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", PREMIERE SPORT 1 BR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=65678_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", ONE YES SPORT IL
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=121864_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", YES ONE SPORT IL
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=121864_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", YES SPORT 1 IL
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=121793_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", YES SPORT 2 IL
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=121792_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", YES SPORT 3 IL
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=121866_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", YES SPORT 4 IL
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=121790_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", YES SPORT 5 IL
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=121789_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", YES SPORT 5 GOLD IL
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=121868_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", YES SPORT 5 PLUS IL
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=121867_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", ESPN MX
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=24982_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", ESPN 3 MX
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=24981_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", ESPN 1 MX
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=24969_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", ESPN 2 MX
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=24970_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", WINSPORT CO
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=66833_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", DIRECT TV CO
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=66832_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", CBC SPORT AZ
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=27675_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SETANTA SPORT 1 UR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=65353_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", SETANTA SPORT 2 UR
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=65354_&extension=ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", MATCH ARENA RU
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=65413_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", MATCH BOETS RU
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=65325_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", MATCH IGRA RU
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=65415_&extension=ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/LOGO%20TELE.jpg" group-title="OLAHRAGA DUNIA", MATCH CTPAHA RU
-http://dragoniptv.de:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=65331_&extension=ts
-
-#EXTINF:0 tvg-logo="https://i.ibb.co/7NpnZgr/Piala-Dunia-U-17-FIFA-2023.png" group-title="FIFA WORLD CUP U17" tvg-id="001" tvg-name="016-LABURATV", WC 1
-http://013tv.com:8080/Bachta/7GYm6pAda8jfMnKt/162141
-#EXTINF:0 tvg-logo="https://i.ibb.co/7NpnZgr/Piala-Dunia-U-17-FIFA-2023.png" group-title="FIFA WORLD CUP U17" tvg-id="001" tvg-name="016-LABURATV", WC 2
-http://103.166.27.2:8112/play/a016
-#EXTINF:0 tvg-logo="https://i.ibb.co/7NpnZgr/Piala-Dunia-U-17-FIFA-2023.png" group-title="FIFA WORLD CUP U17" tvg-id="001" tvg-name="016-LABURATV", WC 3
-http://vo01.mohdtv.com:8880/live/voay3911/pnrj82ba/59220.m3u8
-#EXTINF:0 tvg-logo="https://i.ibb.co/7NpnZgr/Piala-Dunia-U-17-FIFA-2023.png" group-title="FIFA WORLD CUP U17" tvg-id="001" tvg-name="016-LABURATV",WC 5
-http://vo01.mohdtv.com:8880/live/voay3911/pnrj82ba/30073.m3u8
-#EXTINF:0 tvg-logo="https://i.ibb.co/7NpnZgr/Piala-Dunia-U-17-FIFA-2023.png" group-title="FIFA WORLD CUP U17" tvg-id="001" tvg-name="016-LABURATV",WC 4
-http://vo01.mohdtv.com:8880/live/voay3911/pnrj82ba/59219.m3u8
-#EXTINF:0 tvg-logo="https://i.ibb.co/7NpnZgr/Piala-Dunia-U-17-FIFA-2023.png" group-title="FIFA WORLD CUP U17" tvg-id="001" tvg-name="016-LABURATV",WC 6
-http://vo01.mohdtv.com:8880/live/voay3911/pnrj82ba/29695.m3u8
-#EXTINF:0 tvg-logo="https://i.ibb.co/7NpnZgr/Piala-Dunia-U-17-FIFA-2023.png" group-title="FIFA WORLD CUP U17" tvg-id="001" tvg-name="016-LABURATV",WC 7
-http://humiptv.live:8080/live/56565656/56565656/151171.ts
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/7NpnZgr/Piala-Dunia-U-17-FIFA-2023.png" group-title="LIVE",LIVE 1
-https://i.mjh.nz/SamsungTVPlus/ATBA3300007PT.m3u8
-##https://1123139281.cdn.khmer-hd.com/phoHD/chunks.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/7NpnZgr/Piala-Dunia-U-17-FIFA-2023.png" group-title="LIVE",LIVE 2
-https://i.mjh.nz/SamsungTVPlus/GBBD1100008YW.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/7NpnZgr/Piala-Dunia-U-17-FIFA-2023.png" group-title="LIVE",LIVE 3
-https://i.mjh.nz/SamsungTVPlus/ITBD1000002HF.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/7NpnZgr/Piala-Dunia-U-17-FIFA-2023.png" group-title="LIVE",LIVE 4
-https://i.mjh.nz/SamsungTVPlus/ESBC2700009B4.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/7NpnZgr/Piala-Dunia-U-17-FIFA-2023.png" group-title="LIVE",LIVE 5
-https://s.id/SuperSportFUBOL
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://weblivehdplay.ru/
-#EXTINF:-1 tvg-logo="https://i.ibb.co/7NpnZgr/Piala-Dunia-U-17-FIFA-2023.png" group-title="LIVE",LIVE 6
-https://webudit.hlsjs.ru/lb/premium123/index.m3u8
---------------------------------------------------LOKAL--------------------------------------------------------------------------
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/XXnRTRj/MNCTV-logo.png" group-title="🇮🇩 NASIONAL 🇮🇩", MNCTV HD
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
-https://nyanv-live-cdn.mncnow.id/live/eds/MNCTV-HD/sa_dash_vmx/MNCTV-HD.mpd
-#EXTINF:-1 tvg-logo="https://i.ibb.co/XXnRTRj/MNCTV-logo.png" group-title="🇮🇩 NASIONAL 🇮🇩", MNCTV HD
-http://103.30.87.238:443/wadmanet/norlec212/858
-#EXTINF:-1 group-title="🇮🇩 NASIONAL 🇮🇩"catchup="" tvg-logo="https://i.ibb.co/xYsJFh4/rcti-logo.png",RCTI
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
-https://nyanv-live-cdn.mncnow.id/live/eds/RCTI-DD/sa_dash_vmx/RCTI-DD.mpd
-#EXTINF:-1 group-title="🇮🇩 NASIONAL 🇮🇩"catchup="" tvg-logo="https://i.ibb.co/xYsJFh4/rcti-logo.png",RCTI
-http://103.30.87.238:443/wadmanet/norlec212/516
-#EXTINF:-1 tvg-logo="https://i.ibb.co/BC8DWcR/Global-TV-Indonesia.png" group-title="🇮🇩 NASIONAL 🇮🇩"catchup="", GTV HD
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
-https://nyanv-live-cdn.mncnow.id/live/eds/GTV-HD/sa_dash_vmx/GTV-HD.mpd
-#EXTINF:-1 tvg-logo="https://i.ibb.co/BC8DWcR/Global-TV-Indonesia.png" group-title="🇮🇩 NASIONAL 🇮🇩"catchup="", GTV HD
-http://103.30.87.238:443/wadmanet/norlec212/5628
-#EXTINF:-1 tvg-logo="https://i.ibb.co/C9QfGJv/INews.png" group-title="🇮🇩 NASIONAL 🇮🇩"catchup="", iNews 
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
-https://nyanv-live-cdn.mncnow.id/live/eds/iNewsTV-HDD/sa_dash_vmx/iNewsTV-HDD.mpd
-#EXTINF:-1 tvg-logo="https://i.ibb.co/C9QfGJv/INews.png" group-title="🇮🇩 NASIONAL 🇮🇩"catchup="", iNews 
-http://103.30.87.238:443/wadmanet/norlec212/1419
-#EXTINF:-1 tvg-logo="https://i.ibb.co/dDkTSF1/INDOSIAR2015.png" group-title="🇮🇩 NASIONAL 🇮🇩"catchup="", INDOSIAR HD
-http://103.166.27.2:8112/play/a016/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/dDkTSF1/INDOSIAR2015.png" group-title="🇮🇩 NASIONAL 🇮🇩"catchup="", INDOSIAR HD
-http://103.30.87.238:443/wadmanet/norlec212/907
-#EXTINF:-1 tvg-logo="https://i.ibb.co/DGvSdyt/sctv.png" group-title="🇮🇩 NASIONAL 🇮🇩"catchup="", SCTV HD
-http://op-group1-swiftservehd-1.dens.tv/h/h217/01.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/DGvSdyt/sctv.png" group-title="🇮🇩 NASIONAL 🇮🇩"catchup="", SCTV HD
-http://103.30.87.238:443/wadmanet/norlec212/890
-#EXTINF:-1 tvg-logo="https://i.ibb.co/GF0s65h/Moji-blue-svg.png" group-title="🇮🇩 NASIONAL 🇮🇩"catchup="", Moji
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDljZWY3MGUtM2I0Ni0zODQyLTk3ZjItMDI0MWFjOTA4ODc1
-http://edge.linknetott.swiftserve.com/channelgroup4/cg409production/ch26/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/Bgr1VQP/trans.png" group-title="🇮🇩 NASIONAL 🇮🇩"catchup="", Trans TV
-https://video.detik.com/transtv/smil:transtv.smil/chunklist.m3u8
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
-#EXTINF:-1 tvg-logo="https://i.ibb.co/gTbQGGj/trans-7-tv.png" group-title="🇮🇩 NASIONAL 🇮🇩"catchup="", Trans 7
-https://video.detik.com/trans7/smil:trans7.smil/chunklist.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/T8Yyvx7/antv.png" group-title="🇮🇩 NASIONAL 🇮🇩"catchup="", ANTV
-http://humiptv.live:8080/live/741852963/741852963/151249.ts
-
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
-#EXTINF:-1 tvg-logo="https://i.ibb.co/km3s31K/rtv.png" group-title="🇮🇩 NASIONAL 🇮🇩"catchup="", RTV
-https://nyanv-live-cdn.mncnow.id/live/eds/RTV/sa_dash_vmx/RTV.mpd
-#EXTINF:-1 tvg-logo="https://i.ibb.co/nz94D2z/NET-TV.png" group-title="🇮🇩 NASIONAL 🇮🇩"catchup="", NET. HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 8.0.0;) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.90 Mobile Safari/537.36
-https://cdn08jtedge.indihometv.com/dassdvr/133/net/manifest.mpd
-#EXTINF:-1 tvg-logo="https://i.ibb.co/NZrjLnX/Kompas-TV.png" group-title="🇮🇩 NASIONAL 🇮🇩"catchup="", Kompas TV
-https://cdn-telkomsel-01.akamaized.net/Content/HLS/Live/channel(dc9040ad-a4e1-4d08-883c-a65542b69602)/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/cbG8cH9/MetroTV.png" group-title="🇮🇩 NASIONAL 🇮🇩"catchup="", Metro TV
-https://cdn-telkomsel-01.akamaized.net/Content/HLS/Live/channel(bd164a95-722d-40db-a596-687c8123f197)/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/cJrgNLt/tvone.png" group-title="🇮🇩 NASIONAL 🇮🇩"catchup="", TVONE HD
-https://nyanv-live-cdn.mncnow.id/live/eds/TVOne-2/sa_dash_vmx/TVOne-2.mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
-#EXTINF:-1 tvg-logo="https://i.ibb.co/RgQqxJh/tvri.png" group-title="🇮🇩 NASIONAL 🇮🇩"catchup="",TVRI
-https://nonton.site:8443/live/ekos/7483/36.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/Wgj9zVS/cnn.png" group-title="🇮🇩 NASIONAL 🇮🇩"catchup="", CNN Indonesia*
-http://streamtv.balatack.my.id:8080/F30140/f3de2280/162137
-
-
-#EXTINF:0 tvg-logo="https://i.ibb.co/WgzX498/Badminton4-U.jpg" group-title="🚩LIVE EVENT🚩"​, BWF 1
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=45fec91ce1f19b6b1f31d69dcfaaf6cd:843e228ab109e9aa6c4822ee4ad05d7d
-https://nyanv-live-cdn.mncnow.id/live/eds/MNCSports2-HD/sa_dash_vmx/MNCSports2-HD.mpd
-#EXTINF:0 tvg-logo="https://i.ibb.co/WgzX498/Badminton4-U.jpg" group-title="🚩LIVE EVENT🚩"​, BWF 2
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=531c6d50e3e9f9ba66446f624f492289:d769d9ae238bdd424f8bcdcdc9a3801f
-https://nyanv-live-cdn.mncnow.id/live/eds/MNCSports-HD/sa_dash_vmx/MNCSports-HD.mpd
-#EXTINF:0 tvg-logo="https://i.ibb.co/WgzX498/Badminton4-U.jpg" group-title="🚩LIVE EVENT🚩", BWF 3
-http://203.205.137.202/play.cbalive.weibisai.com/live/3406397440864061_AiSD.m3u8?txSecret=ed2e72d5f192f46ff3fb293ed1f77e54&txTime=6538AEE0&utm_medium
-#EXTINF:0 tvg-logo="https://i.ibb.co/WgzX498/Badminton4-U.jpg" group-title="🚩LIVE EVENT🚩"​, COURT 1
-https://prod-ent-live-gm.jiocinema.com/bpk-tv/JV_SportsHD1_DIG_MOB/Fallback/hls/JV_SportsHD1_DIG_MOB-audio_98835_eng=98800-video=3110800.m3u8
-#EXTINF:0 tvg-logo="https://i.ibb.co/WgzX498/Badminton4-U.jpg" group-title="🚩LIVE EVENT🚩"​, COURT 2
-https://prod-ent-live-gm.jiocinema.com/bpk-tv/JV_SportsHD4_DIG_MOB/Fallback/hls/JV_SportsHD4_DIG_MOB-audio_98835_eng=98800-video=1173600.m3u8
-#EXTINF:0 tvg-logo="https://i.ibb.co/HNz0Hrv/Logo-Livoli-Divisi-Utama.png" group-title="🚩LIVE EVENT🚩",PRO LIGA
-http://103.166.27.2:8112/play/a017/index.m3u8
-#EXTINF:0 tvg-logo="https://i.ibb.co/HNz0Hrv/Logo-Livoli-Divisi-Utama.png" group-title="🚩LIVE EVENT🚩",PRO LIGA 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 8.0.0;) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.90 Mobile Safari/537.36
-https://cdn08jtedge.indihometv.com/dassdvr/134/ochannel/manifest.mpd
-#EXTINF:0 tvg-logo="https://i.ibb.co/HNz0Hrv/Logo-Livoli-Divisi-Utama.png" group-title="🚩LIVE EVENT🚩",VOLY KOREA
-http://tvlive.sbs.co.kr/sbsespn/sbsespn2.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2OTk1MzA0MzYsInBhdGgiOiIvc2JzZXNwbjIuc3RyZWFtIiwiZHVyYXRpb24iOi0xLCJ1bm8iOiI1NjYxY2VhNC1lODQ2LTRhM2QtYWIzNi0zZDY3ZDhjN2Y1NzciLCJpYXQiOjE2OTk1MjMyMzZ9.N2ZUZAKXEqCfTiKz7GjA6yI3IXwih_dKhAOeN4BZ8NM
-#EXTINF:0 tvg-logo="https://i.ibb.co/h9VK7Df/vnl-logo.png" group-title="🚩LIVE EVENT🚩",VOLLY
-http://kuchini.site:8080/mantul/2029fde156/299947
-#EXTINF:0 tvg-logo="https://i.ibb.co/P1KZ7vx/bri.jpg" group-title="🚩LIVE EVENT🚩",LIGA BRI  1
+#EXTINF:0 tvg-logo="https://i.ibb.co/P1KZ7vx/bri.jpg" group-title="🚩LIGA BRI🚩",LIGA BRI 2
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
 https://nyanv-live-cdn.mncnow.id/live/eds/Soccer-2/sa_dash_vmx/Soccer-2.mpd
-#EXTINF:0 tvg-logo="https://i.ibb.co/P1KZ7vx/bri.jpg" group-title="🚩LIVE EVENT🚩",lIGA BRI 2
-http://iptvtree.net:8080/cinepk2021/KyLGh1tdiJ0ZE1fv/162138
-#EXTINF:0 tvg-logo="https://i.ibb.co/P1KZ7vx/bri.jpg" group-title="🚩LIVE EVENT🚩",LIGA BRI 3
-http://103.166.27.2:8112/play/a016/index.m3u8
- 
-#EXTINF:0 tvg-logo="https://i.ibb.co/D7MbKd8/Moto-Gp.png" group-title="🚩LIVE EVENT🚩",MOTO GP 1
-https://sportsleading.online/live/stream_moto.m3u8
-#EXTINF:0 tvg-logo="https://i.ibb.co/D7MbKd8/Moto-Gp.png" group-title="🚩LIVE EVENT🚩",MOTO GP 2
+#EXTINF:0 tvg-logo="https://i.ibb.co/P1KZ7vx/bri.jpg" group-title="🚩LIGA BRI🚩",LIGA BRI 3
+http://iptvmedia.live:8080/argoni150Con/gPT9F27zGRXv3MfDqH5sY4/162138
+
+
+
+#EXTINF:0 tvg-logo="https://i.ibb.co/D7MbKd8/Moto-Gp.png" group-title="🚩MOTOGP🚩",MOTO GP
+http://iptvmedia.live:8080/argoni150Con/gPT9F27zGRXv3MfDqH5sY4/9880
+#EXTINF:0 tvg-logo="https://i.ibb.co/D7MbKd8/Moto-Gp.png" group-title="🚩MOTOGP🚩",MOTO GP 1
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=57d2ac9210cfbca3596cc679a01c8b29:d5e35c0f39c76adf24853d7ea18c71e7
 https://nyanv-live-cdn.mncnow.id/live/eds/SPOTV2-HD/sa_dash_vmx/SPOTV2-HD.mpd
-#EXTINF:0 tvg-logo="https://i.ibb.co/D7MbKd8/Moto-Gp.png" group-title="🚩LIVE EVENT🚩",MOTO GP 3
+#EXTINF:0 tvg-logo="https://i.ibb.co/D7MbKd8/Moto-Gp.png" group-title="🚩MOTOGP🚩",MOTO GP 2
+http://iptvmedia.live:8080/argoni150Con/gPT9F27zGRXv3MfDqH5sY4/281639
+#EXTINF:0 tvg-logo="https://i.ibb.co/D7MbKd8/Moto-Gp.png" group-title="🚩MOTOGP🚩",MOTO GP 3
 http://esuniptvstream.com:88/F9864567/CARPUHECVV1VMZ3/192420
+
+#EXTINF:0 tvg-logo="https://i.ibb.co/WgzX498/Badminton4-U.jpg" group-title="🏆BWF🏆", Bulutangkis
+https://cdn01-telkomsel-01.akamaized.net/Content/DASH/Live/channel(18564c27-ff44-4d62-9fab-dcb417fcb93f)/manifest.mpd
+#EXTINF:0 tvg-logo="https://i.ibb.co/WgzX498/Badminton4-U.jpg" group-title="🏆BWF🏆", BWF TOUR FINAL 1
+https://prod-ent-live-gm.jiocinema.com/hls/live/2099121/hd_akamai_merged_avc_eng_bwf_m1_161223/master_p4.m3u8
+#EXTINF:0 tvg-logo="https://i.ibb.co/WgzX498/Badminton4-U.jpg" group-title="🏆BWF🏆", BWF TOUR FINAL 2
+https://prod-ent-live-gm.jiocinema.com/hls/live/2099894/hd_akamai_merged_avc_eng_bwf_m2_161223/master_p4.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="SpoTV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/957f888d2a434d5f6a1526e178dcec47.png" group-title="🏆BWF🏆",bwf 4
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=57d2ac9210cfbca3596cc679a01c8b29:d5e35c0f39c76adf24853d7ea18c71e7
+https://nyanv-live-cdn.mncnow.id/live/eds/SPOTV-HD/sa_dash_vmx/SPOTV-HD.mpd
+========================================================================================================================================
+
+#EXTINF:-1 tvg-id="" tvg-name="Champions League 3" tvg-logo="https://i.ibb.co/T4vT0Lk/champion.jpg" group-title="▶️CHAMPION LEAGUE◀️",DIGISPORT
+http://backup.xp1.tv:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=803_&extension=ts
+#EXTINF:-1 tvg-id="" tvg-name="Champions League 3" tvg-logo="https://i.ibb.co/T4vT0Lk/champion.jpg" group-title="▶️CHAMPION LEAGUE◀️",SUPER SPORT
+http://raptor-tv.com:80/play/live.php?mac=00:1a:79:c1:da:5b&stream=239078&extension=ts&play_token=WIj93CqWrq 
+#EXTINF:-1 tvg-id="" tvg-name="Champions League 3" tvg-logo="https://i.ibb.co/T4vT0Lk/champion.jpg" group-title="▶️CHAMPION LEAGUE◀️",ARENA PREMIUM
+http://line.rs6ott.com:80/play/live.php?mac=00:1A:79:73:BF:36&stream=801855&extension=ts&play_token=5iYcwPJUh5
+#EXTINF:-1 tvg-id="" tvg-name="Champions League 3" tvg-logo="https://i.ibb.co/T4vT0Lk/champion.jpg" group-title="▶️CHAMPION LEAGUE◀️",K+ SPORT 1
+http://pubgamers.net:80/RahmanBalajXhevdet/dTjoKahOiK/755
+#EXTINF:-1 tvg-id="" tvg-name="Champions League 4" tvg-logo="https://i.ibb.co/T4vT0Lk/champion.jpg" group-title="▶️CHAMPION LEAGUE◀️",K+ SPORT 2
+http://pubgamers.net:80/RahmanBalajXhevdet/dTjoKahOiK/754
+#EXTINF:-1 tvg-id="" tvg-name="Champions League 4" tvg-logo="https://i.ibb.co/T4vT0Lk/champion.jpg" group-title="▶️CHAMPION LEAGUE◀️",SONY TEN 1
+https://dai.google.com/linear/hls/event/V9h-iyOxRiGp41ppQScDSQ/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Champions League 4" tvg-logo="https://i.ibb.co/T4vT0Lk/champion.jpg" group-title="▶️CHAMPION LEAGUE◀️",CHAMPION 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:106.0) Gecko/20100101 Firefox/106.0
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=c9f3795d0a1d46b505fd5b5d34953dec:ef3bb480e631339ce3690d519f328fbd
+https://production-drm-vidio-com-event-1.akamaized.net/out/v1/6ae0fdb0f6ee4b10b5497efc10f0ce03/index.mpd
+#EXTINF:-1 tvg-id="" tvg-name="Champions League 4" tvg-logo="https://i.ibb.co/T4vT0Lk/champion.jpg" group-title="▶️CHAMPION LEAGUE◀️", CHAMPION 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:106.0) Gecko/20100101 Firefox/106.0
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=e34a4f7ba8ccfe3f5e14d8413af8d6f8:20f28eaa8592128da2032a0c05fc7b12
+https://production-drm-vidio-com-event-2.akamaized.net/out/v1/078b12e86d0a4f75b4c7ce1ed23d82d9/index.mpd
+#EXTINF:-1 tvg-id="" tvg-name="Champions League 4" tvg-logo="https://i.ibb.co/T4vT0Lk/champion.jpg" group-title="▶️CHAMPION LEAGUE◀️", CHAMPION 3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:106.0) Gecko/20100101 Firefox/106.0
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1bc3e6cc570d8baf7edd5d68b1bea0c9:f91ed9a52cc02e932551c9cc97df0cdc
+https://production-drm-vidio-com-event-3.akamaized.net/out/v1/ee66c2e0b8784d3d9f9585af6bdf9109/index.mpd
+
+#EXTINF:0 tvg-logo="https://i.ibb.co/7NpnZgr/Piala-Dunia-U-17-FIFA-2023.png" group-title="▶️SPORTS◀️" tvg-id="001" tvg-name="016-LABURATV",FIFA
+https://i.mjh.nz/SamsungTVPlus/ATBA3300007PT.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="Champions League 4" tvg-logo="https://i.ibb.co/mBXzG25/sony-2.jpg" group-title="▶️SPORTS◀️",SONY TEN 2
+https://dai.google.com/linear/hls/event/V9h-iyOxRiGp41ppQScDSQ/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Champions League 1" tvg-logo="http://www.stickpng.com/assets/images/5842fe18a6515b1e0ad75b3d.png" group-title="▶️SPORTS◀️",BEIN SPORT
+http://starshare.live:8080/live/Pirates/Pirates/143062.ts
+#EXTINF:-1 tvg-id="" tvg-name="Champions League 2" tvg-logo="http://www.stickpng.com/assets/images/5842fe18a6515b1e0ad75b3d.png" group-title="▶️SPORTS◀️",SUPERSPORT
+http://raptor-tv.com:80/play/live.php?mac=00:1a:79:c1:da:5b&stream=239078&extension=ts&play_token=WIj93CqWrq
+
+#EXTINF:-1 tvg-id="" tvg-name="Champions League 4" tvg-logo="http://www.stickpng.com/assets/images/5842fe18a6515b1e0ad75b3d.png" group-title="▶️SPORTS◀️",K+ SPORT 1
+http://b4tv.live/play/4QwRtVvD1xJIP-l7j-o7UnEUF_PuDX8GqPgBymlu6t4/.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="RUS: Match Football 1" tvg-logo="http://www.stickpng.com/assets/images/5842fe18a6515b1e0ad75b3d.png" group-title="▶️SPORTS◀️", Match Football 1
+http://ghost1.tv:80/162CBDA1CFAF/64ff5ef7debbf/45645
+#EXTINF:-1 tvg-id="" tvg-name="RUS: Match Football 2 HD" tvg-logo="http://www.stickpng.com/assets/images/5842fe18a6515b1e0ad75b3d.png" group-title="▶️SPORTS◀️", Match Football 2 HD
+http://ghost1.tv:80/162CBDA1CFAF/64ff5ef7debbf/45646
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/48701Nw/usee-2.jpg" group-title="▶️SPORTS◀️", Usee Sport 1
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=69646b755f3130303030303030303030:e4a2359b05563399f1d9adfce641724a
+https://cdn08jtedge.indihometv.com/dassdvr/133/useesport/manifest.mpd
+#EXTINF:-1 tvg-logo="https://i.ibb.co/kHLJ7Hx/Usee-Sports2.png" group-title="▶️SPORTS◀️", Usee Sport 2
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=69646b755f3130303030303030303030:e4a2359b05563399f1d9adfce641724a
+https://cdn08jtedge.indihometv.com/dassdvr/133/useesports2/manifest.mpd
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/2PN7FL5/SPOTV-logo.png" group-title="▶️SPORTS◀️", SPOTV
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=57d2ac9210cfbca3596cc679a01c8b29:d5e35c0f39c76adf24853d7ea18c71e7
+https://nyanv-live-cdn.mncnow.id/live/eds/SPOTV-HD/sa_dash_vmx/SPOTV-HD.mpd
+#EXTINF:-1 tvg-logo="https://i.ibb.co/Tq9jh3B/spotv2.png" group-title="▶️SPORTS◀️", SPOTV 2
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=57d2ac9210cfbca3596cc679a01c8b29:d5e35c0f39c76adf24853d7ea18c71e7
+https://nyanv-live-cdn.mncnow.id/live/eds/SPOTV2-HD/sa_dash_vmx/SPOTV2-HD.mpd
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/X7QG847m/Sportstars.png" group-title="▶️SPORTS◀️",SPORTSTAR
+http://aak94qq.wanicelife.com:8880/6mmk110042/62322762/60357
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
+#EXTINF:-1 tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_98.png" group-title="▶️SPORTS◀️",SPORTSTAR 2
+https://nyanv-live-cdn.mncnow.id/live/eds/MNCSports2-HD/sa_dash_vmx/MNCSports2-HD.mpd
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
+#EXTINF:-1 tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_99.png" group-title="▶️SPORTS◀️", SPORTSTAR 3
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
+https://nyanv-live-cdn.mncnow.id/live/eds/Soccer-2/sa_dash_vmx/Soccer-2.mpd
+#EXTINF:-1 group-title="▶️SPORTS◀️" tvg-id="SPORTSTARS 4" tvg-logo="https://i.ibb.co/nmdh1gD/Sportstars-4.png",SPORTSTARS 4
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
+https://nyanv-live-cdn.mncnow.id/live/eds/Sportstar4/sa_dash_vmx/Sportstar4.mpd
+
+#EXTINF:0 tvg-id="SoccerChannel.Id" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_101.png" group-title="▶️SPORTS◀️",Soccer Channel
+https://nyanv-live-cdn.mncnow.id/live/eds/soccerchannel-HD/sa_dash_vmx/soccerchannel-HD.mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NzEwNGYwNjEtNzBjNC0zNmJjLTkwZGMtMGQ1Yjg3ZWJhZTBi
+#EXTINF:-1 tvg-id="" group-title="Sports" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_307.png",SPOTV
+https://mangga-live-cdn.mncnow.id/live/eds/SPOTV-HD/sa_dash_vmx/SPOTV-HD.mpd
+
+
+
+#EXTM3U
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/LOGO-CHANEL/main/ligaeropa.png" group-title="#⚽EVENT BOLA⚽#", LIGA TOP EROPA 1
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:45:CA:A6&stream=1040328&extension=ts&play_token=33OqsgppFx
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/LOGO-CHANEL/main/ligaeropa.png" group-title="#⚽EVENT BOLA⚽#", LIGA TOP EROPA 2
+http://pal.alphatx.me:80/play/live.php?mac=00:1a:79:00:0c:6c&stream=83447&extension=ts&play_token=V9YxR3GC9d
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/LOGO-CHANEL/main/ligaeropa.png" group-title="#⚽EVENT BOLA⚽#", LIGA TOP EROPA 3
+http://line.greatstar.me:80/play/live.php?mac=00:1A:79:BF:E6:C8&stream=571247&extension=ts&play_token=GVZS088tcf
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/LOGO-CHANEL/main/ligaeropa.png" group-title="#⚽EVENT BOLA⚽#", LIGA TOP EROPA 4
+http://pal.alphatx.me:80/play/live.php?mac=00:1a:79:00:0c:6c&stream=239078&extension=ts&play_token=WIj93CqWrq
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/LOGO-CHANEL/main/ligaeropa.png" group-title="#⚽EVENT BOLA⚽#", LIGA TOP EROPA 5
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:73:BF:36&stream=801855&extension=ts&play_token=5iYcwPJUh5
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/LOGO-CHANEL/main/ligaeropa.png" group-title="#⚽EVENT BOLA⚽#", LIGA TOP EROPA 6
+http://backup.xp1.tv:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=14250_&extension=ts
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/LOGO-CHANEL/main/ligaeropa.png" group-title="#⚽EVENT BOLA⚽#", LIGA TOP EROPA 7
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:73:BF:36&stream=110912&extension=ts&play_token=Bpph6LdgyS
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/LOGO-CHANEL/main/ligaeropa.png" group-title="#⚽EVENT BOLA⚽#", LIGA TOP EROPA 8
+http://backup.xp1.tv:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=803_&extension=ts
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/LOGO-CHANEL/main/ligaeropa.png" group-title="#⚽EVENT BOLA⚽#", LIGA TOP EROPA 9
+http://backup.xp1.tv:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=41809_&extension=ts
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/LOGO-CHANEL/main/ligaeropa.png" group-title="#⚽EVENT BOLA⚽#", LIGA TOP EROPA 10
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:73:BF:36&stream=1282748&extension=ts&play_token=mPBaNK3aZ6
+
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/LOGO-CHANEL/main/ligaeropa.png" group-title="#⚽EVENT BOLA⚽#", LIGA TOP EROPA 11
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:73:BF:36&stream=913381&extension=ts&play_token=CWhwcm5IsT
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/LOGO-CHANEL/main/ligaeropa.png" group-title="#⚽EVENT BOLA⚽#", LIGA TOP EROPA 12
+http://backup.xp1.tv:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=63303_&extension=ts
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/LOGO-CHANEL/main/ligaeropa.png" group-title="#⚽EVENT BOLA⚽#", LIGA TOP EROPA 13
+http://new.ivue.co:25461/play/live.php?mac=00:1A:79:AF:AD:53&stream=1350557_&extension=ts
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/LOGO-CHANEL/main/ligaeropa.png" group-title="#⚽EVENT BOLA⚽#", LIGA TOP EROPA 14
+http://backup.xp1.tv:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=61818_&extension=ts
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/LOGO-CHANEL/main/ligaeropa.png" group-title="#⚽EVENT BOLA⚽#", LIGA TOP EROPA 15
+http://pal.alphatx.me:80/play/live.php?mac=00:1a:79:00:0c:6c&stream=45235&extension=ts&play_token=L5v3eNkEQU
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/LOGO-CHANEL/main/ligaeropa.png" group-title="#⚽EVENT BOLA⚽#", LIGA TOP EROPA 16
+http://backup.xp1.tv:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=9180_&extension=ts
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/LOGO-CHANEL/main/ligaeropa.png" group-title="#⚽EVENT BOLA⚽#", LIGA TOP EROPA 17
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:73:BF:36&stream=913380&extension=ts&play_token=MA765eYvLE
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/LOGO-CHANEL/main/ligaeropa.png" group-title="#⚽EVENT BOLA⚽#", LIGA TOP EROPA 18
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:73:BF:36&stream=132717&extension=ts&play_token=JIQAe2UvyK
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/LOGO-CHANEL/main/ligaeropa.png" group-title="#⚽EVENT BOLA⚽#", LIGA TOP EROPA 19
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:73:BF:36&stream=110765&extension=ts&play_token=8dUyatZl02
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/LOGO-CHANEL/main/ligaeropa.png" group-title="#⚽EVENT BOLA⚽#", LIGA TOP EROPA 20
+http://pal.alphatx.me:80/play/live.php?mac=00:1a:79:00:0c:6c&stream=1032471&extension=ts&play_token=InCwgv0Zsg
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/LOGO-CHANEL/main/logomotogp.png" group-title="#🏍️EVENT GP&F1🏎️#", GP 1
+http://mol-2.com:8080/play/live.php?mac=00:1A:79:FB:17:BE&stream=305274&extension=ts
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/LOGO-CHANEL/main/logomotogp.png" group-title="#🏍️EVENT GP&F1🏎️#", GP 2
+http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel%28ch3300%29/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/LOGO-CHANEL/main/logomotogp.png" group-title="#🏍️EVENT GP&F1🏎️#", GP 3
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:45:CA:A6&stream=692421&extension=ts&play_token=DNtPXPsBWp
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/LOGO-CHANEL/main/logomotogp.png" group-title="#🏍️EVENT GP&F1🏎️#", GP 4
+http://exchange.jinbox.nl:80/play/live.php?mac=00:1a:79:59:53:0f&stream=11485_&extension=ts&play_token=W0JcMWGscf
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/LOGO-CHANEL/main/logomotogp.png" group-title="#🏍️EVENT GP&F1🏎️#", GP 5
+http://mol-2.com:8080/play/live.php?mac=00:1A:79:FB:17:BE&stream=56602&extension=ts
+
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/LOGO-CHANEL/main/logof1.png" group-title="#🏍️EVENT GP&F1🏎️#", F1 1
+http://mol-2.com:8080/play/live.php?mac=00:1A:79:FB:15:3F&stream=295373&extension=ts
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/LOGO-CHANEL/main/logof1.png" group-title="#🏍️EVENT GP&F1🏎️#", F1 2
+http://pal.alphatx.me:80/play/live.php?mac=00:1a:79:00:0c:6c&stream=83453&extension=ts&play_token=U71gOhaI4v
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/LOGO-CHANEL/main/logof1.png" group-title="#🏍️EVENT GP&F1🏎️#", F1 3
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:45:CA:A6&stream=83453&extension=ts&play_token=TP5qtHk8iF
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/LOGO-CHANEL/main/logof1.png" group-title="#🏍️EVENT GP&F1🏎️#", F1 4
+http://51.75.71.80:31321/DAZN_F1/hls/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/LOGO-CHANEL/main/logof1.png" group-title="#🏍️EVENT GP&F1🏎️#", F1 5
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:73:BF:36&stream=79479&extension=ts&play_token=7ftpv9VAE5
+
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjPN1ahBMn-Dlf5P1L-ZHjVUWxPb3vBpd92A&usqp=CAU" group-title="#🇪🇸EVENT DAZN🇮🇹#", DAZN ZONA IT HD
+http://mol-2.com:8080/play/live.php?mac=00:1A:79:B2:7E:AF&stream=56669&extension=ts
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyAGU3rKq-Q4upVyYDDhy5Q_NOfAcLm6rZzA&usqp=CAU" group-title="#🇪🇸EVENT DAZN🇮🇹#", DAZN 1 ES
+http://a1.dinott.com:80/play/live.php?mac=00:1a:79:7a:bf:78&stream=612264&extension=ts&play_token=V9sccPkwgY
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFV7fMwWm-r3a_xJ-RpbcLy0SGmnk3_BjUpg&usqp=CAU" group-title="#🇪🇸EVENT DAZN🇮🇹#", DAZN 2 ES
+http://a1.dinott.com:80/play/live.php?mac=00:1a:79:7a:bf:78&stream=612265&extension=ts&play_token=KGuq7bsCmW
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFV7fMwWm-r3a_xJ-RpbcLy0SGmnk3_BjUpg&usqp=CAU" group-title="#🇪🇸EVENT DAZN🇮🇹#", DAZN 3 ES
+http://a1.dinott.com:80/play/live.php?mac=00:1a:79:7a:bf:78&stream=612266&extension=ts&play_token=rXjLsvIH6B
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFV7fMwWm-r3a_xJ-RpbcLy0SGmnk3_BjUpg&usqp=CAU" group-title="#🇪🇸EVENT DAZN🇮🇹#", DAZN 4 ES
+http://a1.dinott.com:80/play/live.php?mac=00:1a:79:7a:bf:78&stream=612265&extension=ts&play_token=rXjLsvIH6B
+
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyAGU3rKq-Q4upVyYDDhy5Q_NOfAcLm6rZzA&usqp=CAU" group-title="#🇪🇸EVENT DAZN🇮🇹#", DAZN 1 DE
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:45:CA:A6&stream=411389&extension=ts&play_token=ip4liZ2ZbN
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFV7fMwWm-r3a_xJ-RpbcLy0SGmnk3_BjUpg&usqp=CAU" group-title="#🇪🇸EVENT DAZN🇮🇹#", DAZN 2 DE
+http://new.ivue.co:25461/play/live.php?mac=00:1A:79:AF:AD:53&stream=1021296_&extension=ts
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyAGU3rKq-Q4upVyYDDhy5Q_NOfAcLm6rZzA&usqp=CAU" group-title="#🇪🇸EVENT DAZN🇮🇹#", DAZN LA LIGA
+http://a1.dinott.com:80/play/live.php?mac=00:1a:79:7a:bf:78&stream=760760&extension=ts&play_token=Eer9aO17Oo
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAy6M9roB5zzsqC9YF5ZMU0WUU5dDcI9r3Mg&usqp=CAU" group-title="#🇪🇸EVENT DAZN🇮🇹#", DAZN F1 IT
+http://pal.alphatx.me:80/play/live.php?mac=00:1a:79:00:0c:6c&stream=317784&extension=ts&play_token=cz0KKH7WWe
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAy6M9roB5zzsqC9YF5ZMU0WUU5dDcI9r3Mg&usqp=CAU" group-title="#🇪🇸EVENT DAZN🇮🇹#", DAZN F1 DE
+http://backup.xp1.tv:80/play/live.php?mac=00:1A:79:C0:17:5D&stream=61977_&extension=ts
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAy6M9roB5zzsqC9YF5ZMU0WUU5dDcI9r3Mg&usqp=CAU" group-title="#🇪🇸EVENT DAZN🇮🇹#", DAZN NBA
+http://a1.dinott.com:80/play/live.php?mac=00:1a:79:7a:bf:78&stream=699718&extension=ts&play_token=toLrOYoPp6
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAy6M9roB5zzsqC9YF5ZMU0WUU5dDcI9r3Mg&usqp=CAU" group-title="#🇪🇸EVENT DAZN🇮🇹#", DAZN NFL
+http://a1.dinott.com:80/play/live.php?mac=00:1a:79:7a:bf:78&stream=699719&extension=ts&play_token=r737rSi3j8
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAy6M9roB5zzsqC9YF5ZMU0WUU5dDcI9r3Mg&usqp=CAU" group-title="#🇪🇸EVENT DAZN🇮🇹#", DAZN MLB
+http://a1.dinott.com:80/play/live.php?mac=00:1a:79:7a:bf:78&stream=699717&extension=ts&play_token=wIddfjDmez
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAy6M9roB5zzsqC9YF5ZMU0WUU5dDcI9r3Mg&usqp=CAU" group-title="#🇪🇸EVENT DAZN🇮🇹#", DAZN EVENT 1
+http://a1.dinott.com:80/play/live.php?mac=00:1a:79:7a:bf:78&stream=699716&extension=ts&play_token=rdAmGZQV3g
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAy6M9roB5zzsqC9YF5ZMU0WUU5dDcI9r3Mg&usqp=CAU" group-title="#🇪🇸EVENT DAZN🇮🇹#", DAZN EVENT 2
+http://a1.dinott.com:80/play/live.php?mac=00:1a:79:7a:bf:78&stream=699715&extension=ts&play_token=rdAmGZQV3g
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAy6M9roB5zzsqC9YF5ZMU0WUU5dDcI9r3Mg&usqp=CAU" group-title="#🇪🇸EVENT DAZN🇮🇹#", DAZN EVENT 3
+http://a1.dinott.com:80/play/live.php?mac=00:1a:79:7a:bf:78&stream=699714&extension=ts&play_token=rdAmGZQV3g
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAy6M9roB5zzsqC9YF5ZMU0WUU5dDcI9r3Mg&usqp=CAU" group-title="#🇪🇸EVENT DAZN🇮🇹#", DAZN EVENT 4
+http://a1.dinott.com:80/play/live.php?mac=00:1a:79:7a:bf:78&stream=699713&extension=ts&play_token=rdAmGZQV3g
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAy6M9roB5zzsqC9YF5ZMU0WUU5dDcI9r3Mg&usqp=CAU" group-title="#🇪🇸EVENT DAZN🇮🇹#", DAZN EVENT 5
+http://a1.dinott.com:80/play/live.php?mac=00:1a:79:7a:bf:78&stream=699712&extension=ts&play_token=rdAmGZQV3g
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAy6M9roB5zzsqC9YF5ZMU0WUU5dDcI9r3Mg&usqp=CAU" group-title="#🇪🇸EVENT DAZN🇮🇹#", DAZN EVENT 6
+http://a1.dinott.com:80/play/live.php?mac=00:1a:79:7a:bf:78&stream=699711&extension=ts&play_token=rdAmGZQV3g
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAy6M9roB5zzsqC9YF5ZMU0WUU5dDcI9r3Mg&usqp=CAU" group-title="#🇪🇸EVENT DAZN🇮🇹#", DAZN EVENT 7
+http://a1.dinott.com:80/play/live.php?mac=00:1a:79:7a:bf:78&stream=699710&extension=ts&play_token=rdAmGZQV3g
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAy6M9roB5zzsqC9YF5ZMU0WUU5dDcI9r3Mg&usqp=CAU" group-title="#🇪🇸EVENT DAZN🇮🇹#", DAZN EVENT 8
+http://a1.dinott.com:80/play/live.php?mac=00:1a:79:7a:bf:78&stream=699709&extension=ts&play_token=rdAmGZQV3g
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAy6M9roB5zzsqC9YF5ZMU0WUU5dDcI9r3Mg&usqp=CAU" group-title="#🇪🇸EVENT DAZN🇮🇹#", DAZN WEB 1
+http://a1.dinott.com:80/play/live.php?mac=00:1a:79:7a:bf:78&stream=601791&extension=ts&play_token=r1V63gH36x
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAy6M9roB5zzsqC9YF5ZMU0WUU5dDcI9r3Mg&usqp=CAU" group-title="#🇪🇸EVENT DAZN🇮🇹#", DAZN WEB 2
+http://a1.dinott.com:80/play/live.php?mac=00:1a:79:7a:bf:78&stream=601790&extension=ts&play_token=MS7R7LJ8Xj
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAy6M9roB5zzsqC9YF5ZMU0WUU5dDcI9r3Mg&usqp=CAU" group-title="#🇪🇸EVENT DAZN🇮🇹#", DAZN WEB 3
+http://a1.dinott.com:80/play/live.php?mac=00:1a:79:7a:bf:78&stream=601789&extension=ts&play_token=MS7R7LJ8Xj
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAy6M9roB5zzsqC9YF5ZMU0WUU5dDcI9r3Mg&usqp=CAU" group-title="#🇪🇸EVENT DAZN🇮🇹#", DAZN WEB 4
+http://a1.dinott.com:80/play/live.php?mac=00:1a:79:7a:bf:78&stream=601788&extension=ts&play_token=MS7R7LJ8Xj
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAy6M9roB5zzsqC9YF5ZMU0WUU5dDcI9r3Mg&usqp=CAU" group-title="#🇪🇸EVENT DAZN🇮🇹#", DAZN WEB 5
+http://a1.dinott.com:80/play/live.php?mac=00:1a:79:7a:bf:78&stream=601787&extension=ts&play_token=MS7R7LJ8Xj
+
+#EXTINF:-1 tvg-logo="https://www.mmawiki.org/en/wp-content/uploads/2014/02/ufc.jpg" group-title="#🥊EVENT UFC🥊", UFC LIVE 1
+http://mol-2.com:8080/play/live.php?mac=00:1A:79:FB:15:3F&stream=58305&extension=ts
+#EXTINF:-1 tvg-logo="https://www.mmawiki.org/en/wp-content/uploads/2014/02/ufc.jpg" group-title="#🥊EVENT UFC🥊", UFC LIVE 2
+http://190.61.43.117:45000/play/a060
+#EXTINF:-1 tvg-logo="https://www.mmawiki.org/en/wp-content/uploads/2014/02/ufc.jpg" group-title="#🥊EVENT UFC🥊", UFC LIVE 3
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:73:BF:36&stream=174995&extension=ts
+#EXTINF:-1 tvg-logo="https://www.mmawiki.org/en/wp-content/uploads/2014/02/ufc.jpg" group-title="#🥊EVENT UFC🥊", UFC LIVE 4
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:73:BF:36&stream=825538&extension=ts
+#EXTINF:-1 tvg-logo="https://www.mmawiki.org/en/wp-content/uploads/2014/02/ufc.jpg" group-title="#🥊EVENT UFC🥊", UFC LIVE 5
+http://new.ivue.co:25461/play/live.php?mac=00:1A:79:AF:AD:53&stream=2192_&extension=ts
+
