@@ -51,34 +51,34 @@ https://nyanv-live-cdn.mncnow.id/live/eds/Trans7-2/sa_dash_vmx/Trans7-2.mpd
 
 ======================================INDOSIAR============================================
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/3px3Ccs/indosiar.jpg" group-title="NATIONAL", INDOSIAR 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/3px3Ccs/indosiar.jpg" group-title="INDONESIA", INDOSIAR 
 #EXTVLCOPT:http-user-agent=mozilla/89
 https://streaming.indihometv.com/atm/DASH/indosiar/manifest.mpd|user-agent=mozilla/89 ExoPlayerLib
 
 ====================================SCTV==============================================
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/VTx2qw4/sctv.jpg" group-title="NATIONAL",SCTV🇮🇩
+#EXTINF:-1 tvg-logo="https://i.ibb.co/VTx2qw4/sctv.jpg" group-title="INDONESIA",SCTV🇮🇩
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
 http://op-group1-swiftservehd-1.dens.tv/h/h217/index.m3u8
 
 ======================================MAXSTREAM============================================
-#EXTINF:-1 group-title="" tvg-logo="" tvg-logo="https://i.ibb.co/wN3BND0/MAXSTREAM.jpg" group-title="NATIONAL", MAXSTREAM🇮🇩
+#EXTINF:-1 group-title="" tvg-logo="" tvg-logo="https://i.ibb.co/wN3BND0/MAXSTREAM.jpg" group-title="INDONESIA", MAXSTREAM🇮🇩
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 8.0.0;) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.90 Mobile Safari/537.36
 https://cdn08jtedge.indihometv.com/dassdvr/194/maxstream/manifest.mpd
 
 ======================================MOJI============================================
-#EXTINF:-1 tvg-url="https://bit.ly/JejeVisionEPG" tvg-id="MOJI" tvg-name="Moji" tvg-logo="https://i.ibb.co/VV3PR90/moji.jpg" group-title="NATIONAL",Moji🇮🇩
+#EXTINF:-1 tvg-url="https://bit.ly/JejeVisionEPG" tvg-id="MOJI" tvg-name="Moji" tvg-logo="https://i.ibb.co/VV3PR90/moji.jpg" group-title="INDONESIA",Moji🇮🇩
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
 https://cdn08jtedge.indihometv.com/dassdvr/134/ochannel/manifest.mpd
 
 ======================================SERU CHANNEL============================================
-#EXTINF:-1 group-title="" tvg-logo="" tvg-logo="https://i.ibb.co/dD8ZmDQ/SERU-CHANNEL.jpg" group-title="NATIONAL", SERU CHANNEL🇮🇩
+#EXTINF:-1 group-title="" tvg-logo="" tvg-logo="https://i.ibb.co/dD8ZmDQ/SERU-CHANNEL.jpg" group-title="INDONESIA", SERU CHANNEL🇮🇩
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 8.0.0;) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.90 Mobile Safari/537.36
 https://cdn08jtedge.indihometv.com/dassdvr/134/seru/manifest.mpd
 
 
 ====================================NET TV==============================================
-#EXTINF:-1 tvg-logo="https://i.ibb.co/R6X1tMW/nettv.jpg" group-title="NATIONAL", NET. HD🇮🇩
+#EXTINF:-1 tvg-logo="https://i.ibb.co/R6X1tMW/nettv.jpg" group-title="INDONESIA", NET. HD🇮🇩
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 8.0.0;) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.90 Mobile Safari/537.36
 https://cdn08jtedge.indihometv.com/dassdvr/133/net/manifest.mpd
 
@@ -102,7 +102,20 @@ https://nyanv-live-cdn.mncnow.id/live/eds/KompasTV/sa_dash_vmx/KompasTV.mpd
 #EXTVLCOPT:http-referrer=https://visionplus.id
 https://melon-live-cdn.mncnow.id/live/eds/iNewsTV-HDD/sa_dash_vmx/iNewsTV-HDD.mpd
 
+#EXTINF:-1 group-title="NEWS" tvg-logo="https://hometv.pw/logo/lokal2/cnn_indonesia.png",CNN Indonesia
+https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/master.m3u8
 
+#EXTINF:-1 group-title="NEWS" tvg-logo="https://hometv.pw/logo/lokal2/cnbc_indonesia.png",CNBC Indonesia
+https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/ZGfb9tf/Radar-TV.jpg" group-title="NEWS",Radar TV
+http://103.140.188.211:1935/radartv/myStream/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/myCd4qc/JPMTV.jpg"  group-title="NEWS",JPMTV
+http://63b2dc7196c38.streamlock.net:1935/ch6/myStream/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/wQGF7nD/elsinta-tv.jpg"  group-title="NEWS",elsinta tv
+https://ams.juraganstreaming.com:5443/LiveApp/streams/elshintatv.m3u8
 
 <=========================================== TVRI Group =========================================>
 
