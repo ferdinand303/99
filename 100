@@ -70,6 +70,7 @@ https://cdn08jtedge.indihometv.com/dassdvr/194/maxstream/manifest.mpd
 #EXTINF:-1 tvg-url="https://bit.ly/JejeVisionEPG" tvg-id="MOJI" tvg-name="Moji" tvg-logo="https://i.ibb.co/VV3PR90/moji.jpg" group-title="INDONESIA",Moji🇮🇩
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
 https://cdn08jtedge.indihometv.com/dassdvr/134/ochannel/manifest.mpd
+http://iptvtree.net:8080/F14995/a84c0963/298550
 
 ======================================SERU CHANNEL============================================
 #EXTINF:-1 group-title="" tvg-logo="" tvg-logo="https://i.ibb.co/dD8ZmDQ/SERU-CHANNEL.jpg" group-title="INDONESIA", SERU CHANNEL🇮🇩
