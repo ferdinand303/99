@@ -5,35 +5,35 @@
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
 #EXTVLCOPT:http-referrer=https://visionplus.id
 #EXTINF:-1 tvg-name="" tvg-logo="" group-title="INDONESIA" group-title="INDONESIA" tvg-logo="https://i.ibb.co/nP0F0LM/rcti.jpg",RCTI
-https://nyanv-live-cdn.mncnow.id/live/eds/RCTI-DD/sa_dash_vmx/RCTI-DD.mpd
+https://1a-rcti.rctiplus.id/rcti-sdi.mpd
 
 =========================================GTV=========================================
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
 #EXTVLCOPT:http-referrer=https://visionplus.id
 #EXTINF:-1 group-title="INDONESIA" tvg-logo="https://i.ibb.co/L8yDPyt/gtv.jpg",GTV
-https://nyanv-live-cdn.mncnow.id/live/eds/GTV-HD/sa_dash_vmx/GTV-HD.mpd
+https://liveaneviadev.mncnow.id/live/eds/GTV-HD/sa_dash_vmx/GTV-HD.mpd
 
 =========================================MNC TV=========================================
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
 #EXTVLCOPT:http-referrer=https://visionplus.id
 #EXTINF:-1 group-title="INDONESIA" tvg-logo="https://i.ibb.co/K2Cwsqk/mnctv.jpg",MNC TV
-https://nyanv-live-cdn.mncnow.id/live/eds/MNCTV-HD/sa_dash_vmx/MNCTV-HD.mpd
+https://liveaneviadev.mncnow.id/live/eds/MNCTV-HD/sa_dash_vmx/MNCTV-HD.mpd
 
 =========================================ANTV=========================================
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
 #EXTVLCOPT:http-referrer=https://visionplus.id
 #EXTINF:-1 group-title="INDONESIA" tvg-logo="https://i.ibb.co/nn9DJFh/antv.jpg",ANTV
-https://nyanv-live-cdn.mncnow.id/live/eds/ANTV/sa_dash_vmx/ANTV.mpd
+http://210.210.155.37/uq2663/h/h235/01.m3u8
 
 =========================================RTV=========================================
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
 #EXTVLCOPT:http-referrer=https://visionplus.id
 #EXTINF:-1 tvg-id="Erz.mnctv" tvg-logo="https://i.ibb.co/CmBS2H9/rtv.jpg" group-title="INDONESIA", RTV
-https://nyanv-live-cdn.mncnow.id/live/eds/RTV/sa_dash_vmx/RTV.mpd
+http://210.210.155.37/uq2663/h/h10/index.m3u8
 
 ========================================TRANS TV=========================================
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -54,12 +54,13 @@ https://nyanv-live-cdn.mncnow.id/live/eds/Trans7-2/sa_dash_vmx/Trans7-2.mpd
 #EXTINF:-1 tvg-id="Indosiar - [Channel 78].id" tvg-name="Indosiar" tvg-logo="https://i.ibb.co/3px3Ccs/indosiar.jpg" group-title="INDONESIA", INDOSIAR 🇮🇩
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-http://op-group1-swiftservesd-1.dens.tv/s/s04/index.m3u8?app_type=web&userid=lite&chname=Indosiar
+http://210.210.155.37/uq2663/h/h207/01.m3u8
+
 ====================================SCTV==============================================
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/VTx2qw4/sctv.jpg" group-title="INDONESIA",SCTV🇮🇩
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
-http://op-group1-swiftservehd-1.dens.tv/h/h217/index.m3u8
+http://210.210.155.37/uq2663/h/h217/01.m3u8
 
 ======================================MAXSTREAM============================================
 #EXTINF:-1 group-title="" tvg-logo="" tvg-logo="https://i.ibb.co/wN3BND0/MAXSTREAM.jpg" group-title="INDONESIA", MAXSTREAM🇮🇩
@@ -69,8 +70,7 @@ https://cdn08jtedge.indihometv.com/dassdvr/194/maxstream/manifest.mpd
 ======================================MOJI============================================
 #EXTINF:-1 tvg-url="https://bit.ly/JejeVisionEPG" tvg-id="MOJI" tvg-name="Moji" tvg-logo="https://i.ibb.co/VV3PR90/moji.jpg" group-title="INDONESIA",Moji🇮🇩
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
-https://cdn08jtedge.indihometv.com/dassdvr/134/ochannel/manifest.mpd
-http://iptvtree.net:8080/F14995/a84c0963/298550
+http://210.210.155.37/x6bnqe/s/s41/index.m3u8
 
 ======================================SERU CHANNEL============================================
 #EXTINF:-1 group-title="" tvg-logo="" tvg-logo="https://i.ibb.co/dD8ZmDQ/SERU-CHANNEL.jpg" group-title="INDONESIA", SERU CHANNEL🇮🇩
@@ -83,7 +83,7 @@ https://cdn08jtedge.indihometv.com/dassdvr/134/seru/manifest.mpd
 #EXTINF:-1 tvg-id="NET TV - [Channel 116].id" tvg-name="Net." tvg-logo="https://i.ibb.co/R6X1tMW/nettv.jpg" group-title="INDONESIA", NET. 🇮🇩
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-https://op-group1-swiftservesd-1.dens.tv/h/h06/index.m3u8?app_type=web&userid=lite&chname=NET
+http://210.210.155.37/uq2663/h/h223/01.m3u8
 
 
 
