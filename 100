@@ -22,11 +22,13 @@ https://liveaneviadev.mncnow.id/live/eds/GTV-HD/sa_dash_vmx/GTV-HD.mpd
 https://liveaneviadev.mncnow.id/live/eds/MNCTV-HD/sa_dash_vmx/MNCTV-HD.mpd
 
 =========================================ANTV=========================================
+
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
 #EXTVLCOPT:http-referrer=https://visionplus.id
-#EXTINF:-1 group-title="INDONESIA" tvg-logo="https://i.ibb.co/nn9DJFh/antv.jpg",ANTV
-http://210.210.155.37/uq2663/h/h235/01.m3u8
+#EXTINF:-1 group-title="INDONESIA" tvg-logo="https://i.ibb.co/nn9DJFh/antv.jpg", ANTV (V+) 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+https://testfunctionlive.mncnow.id/live/eds/ANTV/sa_dash_vmx/ANTV.mpd|Referer=https://www.visionplus.id/
 
 =========================================RTV=========================================
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -36,18 +38,20 @@ http://210.210.155.37/uq2663/h/h235/01.m3u8
 http://210.210.155.37/uq2663/h/h10/index.m3u8
 
 ========================================TRANS TV=========================================
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
-#EXTVLCOPT:http-referrer=https://visionplus.id
-#EXTINF:-1 group-title="INDONESIA" tvg-logo="https://i.ibb.co/cryTxSm/transtv.jpg",Trans TV
-https://video.detik.com/transtv/smil:transtv.smil/index.m3u8
 
+#EXTINF:-1 group-title="INDONESIA" group-logo="" tvg-logo="https://i.ibb.co/cryTxSm/transtv.jpg", Trans TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.stream_headers=user-agent=CUBMU/1.2.9 (Linux;Android 12) ExoPlayerLib/2.9.6
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://transvision.apkplfree.workers.dev/pukgeruk
+https://video.detik.com/transtv/smil:transtv.smil/index.m3u8
 =======================================Trans 7===========================================
+
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
 #EXTVLCOPT:http-referrer=https://visionplus.id
-#EXTINF:-1 group-title="INDONESIA" tvg-logo="https://i.ibb.co/HCLPQyJ/trans7.jpg",Trans 7
-https://video.detik.com/trans7/smil:trans7.smil/index.m3u8
+#EXTINF:-1 group-title="INDONESIA" tvg-logo="https://i.ibb.co/HCLPQyJ/trans7.jpg", TRANS 7 (V+) 
+http://testfunctionlive.mncnow.id/live/eds/Trans7-2/sa_dash_vmx/Trans7-2.mpd|Referer=https://www.visionplus.id/
 
 ======================================INDOSIAR============================================
 
@@ -271,13 +275,6 @@ https://melon-live-cdn.mncnow.id/live/eds/ZeeBIOSKOP/sa_dash_vmx/ZeeBIOSKOP.mpd
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/ 
 #EXTINF:-1 tvg-id="" group-title="MOVIES" tvg-logo="https://i.ibb.co/mS1zCnm/TVN.jpg",tvN Asia
 https://melon-live-cdn.mncnow.id/live/eds/tvN/sa_dash_vmx/tvN.mpd|user-agent=okhttp/4.10.0?network_id=www.visionplus.id/ 
-------------------------------------------AXN-----------------------------------
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 11; Pixel 3a) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.101 Mobile Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NzEwNGYwNjEtNzBjNC0zNmJjLTkwZGMtMGQ1Yjg3ZWJhZTBi
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/ 
-#EXTINF:-1 tvg-id="" group-title="MOVIES" tvg-logo="https://hometv.pw/logo/movies2/axn.png",AXN Indonesia
-https://melon-live-cdn.mncnow.id/live/eds/AXN/sa_dash_vmx/AXN.mpd|user-agent=okhttp/4.10.0?network_id=www.visionplus.id/ 
 
 ------------------------------------------ROCK ENTERTAINMENT-----------------------------------
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 11; Pixel 3a) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.101 Mobile Safari/537.36
@@ -301,6 +298,10 @@ https://melon-live-cdn.mncnow.id/live/eds/Rockaction/sa_dash_vmx/Rockaction.mpd
 #EXTINF:-1 tvg-id="" group-title="MOVIES" tvg-logo="https://hometv.pw/logo/movies2/kix.png",KIX
 https://melon-live-cdn.mncnow.id/live/eds/KIX/sa_dash_vmx/KIX.mpd|user-agent=okhttp/4.10.0?network_id=www.visionplus.id/ 
 
+==================================Citra Drama===============================================
+#EXTINF:-1 tvg-id="" tvg-logo="https://dl.dropbox.com/scl/fi/km3yj6gj1joc2eckobakj/citra-drama.png?rlkey=a5clci5okagn0wi60eb4fib7y&dl=0" group-title="MOVIES", Citra Drama
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Firefox/101.0 Safari/537.36 Edg/111.0.1661.43 
+https://cdn08jtedge.indihometv.com/dassdvr/130/cdrama/manifest.mpd
 
 ##################################SPORT LOKAL###################################
 ################################################################################
