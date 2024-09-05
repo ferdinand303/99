@@ -69,7 +69,7 @@ http://filex.tv:8080/28b/11223344/302279
 
 ====================================NET TV==============================================
 
-#EXTINF:-1 tvg-id="NET TV - [Channel 116].id" tvg-name="Net." tvg-logo="https://raw.githubusercontent.com/ferdinand303/wajah/main/net.jpg" group-title="INDONESIA", NET
+#EXTINF:-1 tvg-id="NET TV - [Channel 116].id" tvg-name="Net." tvg-logo="https://raw.githubusercontent.com/ferdinand303/wajah/main/net.jpg" group-title="NASIONAL", NET
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 http://op-group1-swiftservehd-1.dens.tv/h/h223/01.m3u8
