@@ -28,20 +28,7 @@ http://op-group1-swiftservehd-1.dens.tv/h/h217/index.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64)
 https://op-group1-swiftservehd-1.dens.tv/h/h224/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/ferdinand303/wajah/refs/heads/main/trans7.jpg" group-title="Indonesia",Trans7
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
-#https://streaming.indihometv.com/atm/DASH/trans7/manifest.mpd|Referer=https://www.indihometv.com
-https://video.detik.com/trans7/smil:trans7.smil/chunklist.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/ferdinand303/wajah/refs/heads/main/transtv.jpg" group-title="Indonesia",Trans TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
-#https://streaming.indihometv.com/atm/DASH/transtv/manifest.mpd|Referer=https://www.indihometv.com
-https://video.detik.com/transtv/smil:transtv.smil/chunklist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/ferdinand303/wajah/refs/heads/main/gtv.jpg" group-title="Indonesia",GTV
-#EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=https://www.rctiplus.com/
-https://r-plus.sedotcw3.workers.dev/index.m3u8?id=gtv
 
 
 =============================================================================================================================================================
@@ -56,23 +43,12 @@ NEWS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64)
 https://op-group1-swiftservehd-1.dens.tv/h/h234/index.m3u8
 
-=========================================iNews=========================================
-========================================================================================
-
-
-
-#EXTINF:-1 tvg-logo="http://static.epg.best/gb/CNN.uk.png" group-title="NEWS",CNN Indonesia
-https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist.m3u8
-
-#EXTINF:-1 group-title="NEWS" tvg-logo="https://hometv.pw/logo/lokal2/cnbc_indonesia.png",CNBC Indonesia
-https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/master.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/myCd4qc/JPMTV.jpg"  group-title="NEWS",JPMTV
 http://63b2dc7196c38.streamlock.net:1935/ch6/myStream/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/wQGF7nD/elsinta-tv.jpg"  group-title="NEWS",elsinta tv
-https://ams.juraganstreaming.com:5443/LiveApp/streams/elshintatv.m3u8
+
 
 #EXTINF:-1 tvg-name="METRO TV" tvg-logo="https://hometv.pw/logo/lokal/metrotv.png" group-title="NEWS", METRO TV 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
@@ -85,8 +61,6 @@ http://op-group1-swiftservehd-1.dens.tv/h/h39/01.m3u8
 #EXTINF: -1 tvg-logo="https://i.ibb.co/3WD0DcZ/Untitled-3-02.png" group-title="NEWS",BTV
 https://b1news.beritasatumedia.com/Beritasatu/B1News_1280x720.m3u8
 
-#EXTINF:-0 tvg-name="TV" tvg-logo="https://dl.dropbox.com/s/tqsro9x223hoe79/Jawapos%20tv.jpeg" group-title="NEWS", JawaPos TV
-https://jawapostv.siar.us/jawapostv/live/playlist.m3u8
 
 
 ====================================Channel Dens============================================================================
