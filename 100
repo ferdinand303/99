@@ -28,9 +28,25 @@ http://op-group1-swiftservehd-1.dens.tv/h/h217/index.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64)
 https://op-group1-swiftservehd-1.dens.tv/h/h224/index.m3u8
 
+#EXTINF:-1 tvg-logo=" " group-title="Indonesia" tvg-logo="https://raw.githubusercontent.com/ferdinand303/wajah/refs/heads/main/gtv.jpg",GTV
+https://d1abp075u76pbq.cloudfront.net/live/eds/GTV-HD/sa_hls/GTV-HD.m3u8
+##https://gtv-cutv.rctiplus.id/gtv-sdi.m3u8
+##https://allcutv.rctiplus.id/gtv2023.m3u8
+
+#EXTINF:-1 tvg-logo=" " group-title="Indonesia" tvg-logo="https://raw.githubusercontent.com/ferdinand303/wajah/refs/heads/main/trans7.jpg",TRANS7
+https://cdn11jtedge.indihometv.com/atm/hlsv3/trans7/trans7.m3u8
 
 
+#EXTINF:-1 tvg-logo=" " group-title="Indonesia" tvg-logo="https://raw.githubusercontent.com/ferdinand303/wajah/refs/heads/main/transtv.jpg",TRANSTV
+https://cdn09jtedge.indihometv.com/atm/hlsv3/transtv/transtv.m3u8
+##https://cdn09jtedge.indihometv.com/joss/133/transtv/index.m3u8
 
+#EXTINF:-1 tvg-logo=" " group-title="Indonesia"  tvg-logo="https://raw.githubusercontent.com/ferdinand303/wajah/refs/heads/main/rcti.jpg",RCTI
+https://allcutv.rctiplus.id/rcti2023.m3u8
+
+
+#EXTINF:-1 tvg-logo=" " group-title="Indonesia" tvg-logo="https://raw.githubusercontent.com/ferdinand303/wajah/refs/heads/main/mnc.jpg",MNCTV
+https://allcutv.rctiplus.id/mnctv2023.m3u8
 =============================================================================================================================================================
 
 ==========================INDIHOME INDONESIA==============================
